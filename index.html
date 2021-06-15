@@ -5,24 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="assets/css/style.css" rel="stylesheet" >
-    <title>Volume-Climbing Centre</title>
+    <title>Volume: Climbing Centre</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><embed src="assets/pictures/volume-logo-no-text.svg"></a>
-            <ul>
-                <li>Home</li>
-                <li>Activities</li>
-                <li>Prices</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-            </ul>
-            <button>Book</button>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-md background-dark-grey container-fluid">
+            <a href="index.html"><img src="assets/pictures/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
+            <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
+                <ul class="nav-page-links uppercase navbar-nav" >
+                    <li class="nav-item"><a class="underline" href="index.html">Home</a></li>
+                    <li class="nav-link-divider"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Activities</a></li>
+                    <li class="nav-link-divider"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
+                    <li class="nav-link-divider"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-link-divider"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list menu-icon"></i>
+            </button>
+            <button href="#" type="button" class="navbar-booking-button background-light-blue uppercase">Book</button>
         </nav>
-        <section class="header">
-            <embed src="assets/pictures/volume-logo-main.svg">
+    </header>
+        <section class="home-intro">
+            <embed src="assets/pictures/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre">
             <article>
 
             </article>
@@ -30,7 +41,6 @@
 
             </article>
         </section>      
-    </header>
     <main>
         <section>
             <h2>About us</h2>

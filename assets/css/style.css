@@ -1,0 +1,141 @@
+/* -------------------------------Fonts */
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v17-latin/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-italic - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v17-latin/lato-v17-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin/lato-v17-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/lato-v17-latin/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* -------------------------------Colours */
+
+.background-dark-grey {
+    background-color: #2A2A31;
+}
+
+.background-light-blue {
+    background-color: #0BD9DA;
+}
+
+/* -------------------------------General rules */
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    border-bottom: 2px solid #f8f8f8;
+
+    padding-bottom: 2px; 
+}
+
+/* -------------------------------animations */
+
+@keyframes fade {
+    0% {
+        color: #f8f8f8;
+        border-color: #f8f8f8;
+    }
+    100% {
+        color: #0BD9DA;
+        border-color: #0BD9DA;
+    }
+}
+
+
+/* -------------------------------Header */
+
+
+
+/* -------------------------------Nav */
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    height: 4em;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 3em;
+    width: 3em;
+    margin-left: 2em;
+}
+
+.nav-page-links {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    background-color: #2A2A31;
+}
+
+.nav-page-links li {
+    display: inline-block;    
+}
+
+.nav-page-links li a {
+    color: #f8f8f8;
+    font-family: Lato, sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-page-links li a:hover {
+    color: #0BD9DA;
+    border-color: #0BD9DA;
+    animation: fade 0.5s ease-in-out;
+}
+
+.nav-link-divider {
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    margin: 0 0.8em;
+}
+
+.navbar-booking-button {
+    color: #2A2A31;
+    border-radius: 2px;
+    border: none;
+    width: 5em;
+    height: 2em;
+    margin-right: 2em;
+}
+
+.menu-icon {
+    color: #f8f8f8;
+    font-size: 1.4em;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
