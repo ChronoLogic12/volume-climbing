@@ -68,11 +68,6 @@ body {
     }
 }
 
-
-/* -------------------------------Header */
-
-
-
 /* -------------------------------Nav */
 
 .container-fluid {
@@ -146,6 +141,46 @@ header {
     top: 1em;
 }
 
+/* -------------------------------Footer */
+
+.footer {
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.footer table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer li a {
+    text-decoration: none;
+    line-height: 2.5em;
+}
+
+.footer ol, .footer ul{
+    padding-left: 1em;
+
+}
+
+.footer i {
+    display: block;
+    font-size: 2em;
+}
+
+.footer td {
+    padding: 0 0.5em;
+}
+
+.footer-column-spacing {
+    margin: 1em 0;
+}
+
+/* -------------------------------Header */
 
 /* -------------------------------Media queries */
 
