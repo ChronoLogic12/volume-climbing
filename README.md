@@ -52,3 +52,5 @@ Provide a way to easily locate the centre.
 ###Bugs
 
 svg files for the brand logo were not displaying. fixed this by using embed tag instead of img. - credit to nisekgao on StackOverflow for the solution - https://stackoverflow.com/questions/41195669/images-in-svg-image-tags-not-showing-up-in-chrome-but-displays-locally
+
+had trouble centering menu icon using position: absolute and left: 50% in a dynamic manner. resolved using "transform:translateX(-50%);" to offset the margin by half the width of the icon. 
