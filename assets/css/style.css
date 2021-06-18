@@ -52,6 +52,21 @@ body {
     padding-bottom: 2px; 
 }
 
+.row {
+    margin: 0;
+}
+
+.button {
+    color: #2A2A31;
+    border-radius: 2px;
+    text-decoration: none;
+    width: 5em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+
 /* -------------------------------animations */
 
 @keyframes fadew-b {
@@ -99,7 +114,7 @@ header {
     height: 3.5em;
     width: 3.5em;
     position: absolute;
-    left: 1em;
+    left: 2em;
     top: 0.5em;
 }
 
@@ -132,17 +147,9 @@ header {
 }
 
 .navbar-booking-button {
-    color: #2A2A31;
-    border-radius: 2px;
-    text-decoration: none;
-    width: 5em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
     position: absolute;
-    right: 1em;
+    right: 2em;
     top: 1em;
-    font-weight: 700;
 }
 
 /* -------------------------------Footer */
@@ -191,10 +198,6 @@ header {
     margin-top: 1em;
 }
 
-.footer > div {
-    margin: 0;
-}
-
 /* -------------------------------Header */
 
 .home-intro {
@@ -209,13 +212,41 @@ header {
 }
 
 .home-main-logo {
-    height: 26em;
-    width: 26em;
+    height: 40vh;
+    margin: auto auto;
+    width: 100%;
+    margin: 3em 0;
+}
+
+.card-body {
+    color: #f8f8f8;
+    background-color: rgba(42,42,49,0.9);
+    margin: 1em auto;
+    width: 80%;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    padding: 1em;
+}
+
+.card-body > div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-body > div a {
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    width: 8.5em;
+    margin: 0.5em;
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
 @media only screen and (max-width: 992px) {
+
+    /* ---------------------------nav */
+
     .nav-menu-icon {
         color: #f8f8f8;
         font-size: 1.5em;
@@ -242,6 +273,45 @@ header {
     .nav-page-links li a {
         font-size: 1.5em;
     }
+
+    .navbar-booking-button {
+        right: 1em;
+    }
+
+    /* ---------------------------header */
+
+    .card-body {
+        font-size: 1em;
+        margin: 0.5em auto;
+        padding: 0.7em;
+    }
+
+    .home-main-logo {
+        margin: 1em 0 0 0;
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home-main-logo {
+        margin: 0;
+        height: 25vh
+    }
+
+    .card-body h3 {
+        font-size: 1.3em;
+    }
+
+    .card-body div a {
+        line-height: 1.5em;
+        height: 1.5em
+    }
 }
 
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/
+
+@media only screen and (min-width: 720px) {
+    .home-intro {
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-large.jpg");
+    }
+}
