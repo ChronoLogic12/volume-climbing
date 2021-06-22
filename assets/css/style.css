@@ -321,6 +321,24 @@ main h2 {
     
 }
 
+/* -------------------------------Map */
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:40vh;
+    width:100vw;
+    top: 4em;
+    margin-bottom: 4em;;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:40vh;
+    width:100vw;
+}
+
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
 @media only screen and (max-width: 992px) {
