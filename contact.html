@@ -34,37 +34,46 @@
     </header>
     <main>
         <section class="container-fluid contact row">
-            <img src="assets/pictures/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="home-main-logo">
-                <h2 class="col-sm-12 card-body card-dark-background uppercase">Get in Touch</h2>
+            <img src="assets/pictures/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="volume-logo">
+            <div class="col-sm-12">
+            </div>                
                 <div class="col-lg-6 col-md-12">
-                    <p>
-                        contact form header
-                    </p>
-                    <form>
-
-                    </form>
+                    <div class="card-body card-shadow card-dark-background contact-card">
+                        <p>
+                            If you have any questions or feedback for us please get in touch using the form bellow.
+                        </p>
+                        <hr>
+                        <form>
+                            <label for="name" class="form-label form-text">Name: </label>
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                            <label for="email1" class="form-label form-text">Email Address: </label>
+                            <input type="email" class="form-control" id="email1" placeholder="Email" required>
+                            <label for="phone" class="form-label form-text">Phone: </label>
+                            <input type="tel" class="form-control" id="email1" placeholder="Phone" required>
+                            <label for="message" class="form-label form-text">Your Message: </label>
+                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                        </form>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <p>
-                        traditional contact header
-                    </p>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">Phone</div>
-                            <div class="col"></div>
+                    <div class="card-body card-shadow card-dark-background contact-card">
+                        <p>
+                            Alternatively you can contact us via phone, email or through our social media.
+                        </p>
+                        <hr>
+                        <div class="contact-container">
+                            <div>Phone: </div>
+                            <div>0123 456 789</div>
+                            <div>Email: </div>
+                            <div>example@example.com</div>
+                            <div>Address: </div>
+                            <div>Volume Climbing, 123 Example street, 
+                                Birmingham, B1 2XX</div>
                         </div>
-                        <div class="row">
-                            <div class="col">Email</div>
-                            <div class="col"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col">Address</div>
-                            <div class="col"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                social media icons
-                            </div>
+                        <div class="contact-socials">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook social-icons"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram social-icons"></i></a>
+                            <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter social-icons"></i></a>
                         </div>
                     </div>
                 </div>

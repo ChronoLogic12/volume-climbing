@@ -71,7 +71,6 @@ body {
 .button {
     color: var(--grey);
     border-radius: 3px;
-    text-decoration: none;
     width: 5rem;
     height: 2rem;
     line-height: 2rem;
@@ -80,7 +79,7 @@ body {
 }
 
 .card-shadow {
-    box-shadow: 20px 20px 0 0 var(--blue);
+    box-shadow: 20px 20px 0 0 rgba(11, 208, 218, 0.9);
 }
 
 .card-body {
@@ -109,6 +108,12 @@ body {
     margin: 0.5rem;
 }
 
+.volume-logo {
+    height: 28vh;
+    width: 100%;
+    margin: auto auto;
+}
+
 /* -------------------------------animations */
 
 @keyframes fadew-b {
@@ -135,6 +140,14 @@ body {
         border-color: var(--white);
         font-color: var(--white);
     }
+}
+
+/* -------------------------------Social media Links */
+
+.social-icons {
+    text-decoration: none;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
 }
 
 /* -------------------------------Nav */
@@ -202,10 +215,6 @@ header {
     margin-top: 2rem;
 }
 
-.footer a {
-    color: var(--blue);
-}
-
 .footer a:hover {
     animation: fadeb-w 0.5s ease-in-out;
 }
@@ -215,17 +224,13 @@ header {
     margin-right: auto;
 }
 
-.footer li {
+.footer li, a {
     list-style-type: none;
-}
-
-.footer li a {
     text-decoration: none;
-    line-height: 2rem;
+    color: var(--blue);
 }
 
 .footer i {
-    display: block;
     font-size: 2rem;
 }
 
@@ -259,8 +264,6 @@ header {
 .home-main-logo {
     height: 40vh;
     margin: auto auto;
-    width: 100%;
-    margin: 3em 0;
 }
 
 /* -------------------------------About us */
@@ -315,10 +318,45 @@ main h2 {
     text-align: center;
     position: relative;
     top: 4rem;
+    z-index: -1;
+    padding-bottom: 5rem;
 }
 
-.contact h2 {
-    
+.contact .card-body p {
+    padding: 1rem 4rem;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 55vh;
+    margin-top: 0;
+}
+
+label {
+    color: var(--white) !important;
+}
+
+.contact-container {
+    display: grid !important;
+    grid-template-columns: auto auto;
+    justify-content: center !important;
+}
+
+.contact-container div:nth-child(odd){
+    text-align: right;
+    padding: 1rem;
+}
+
+.contact-container div:nth-child(even) {
+    text-align: left;
+    padding: 1rem;
+}
+
+.contact-socials {
+    padding-bottom: 3rem;
+    justify-content: space-evenly !important;
 }
 
 /* -------------------------------Map */
@@ -329,7 +367,8 @@ main h2 {
     height:40vh;
     width:100vw;
     top: 4em;
-    margin-bottom: 4em;;
+    margin-bottom: 4em;
+    z-index: -1;
 }
 
 .gmap_canvas {
@@ -343,7 +382,7 @@ main h2 {
 
 @media only screen and (max-width: 992px) {
 
-    /* ---------------------------nav */
+    /* ---------------------------Nav */
 
     .nav-menu-icon {
         color: var(--white);
@@ -376,7 +415,7 @@ main h2 {
         right: 1rem;
     }
 
-    /* ---------------------------home */
+    /* ---------------------------Home */
 
     .card-body {
         font-size: 1rem;
@@ -391,6 +430,21 @@ main h2 {
 
     .home-about-us h2 {
         max-width: 35%;
+    }
+
+    /* ---------------------------Contact */
+
+    .contact-card {
+        margin-bottom: 2rem;
+    }
+
+    .contact .card-body p {
+        padding: 1rem 2rem;
+    }
+
+    .contact form {
+        padding: 1rem;
+
     }
 }
 
