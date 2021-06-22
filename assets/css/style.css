@@ -29,12 +29,23 @@
 
 /* -------------------------------Colours */
 
+:root {
+    --blue: #0BD0DA;
+    --grey: #2A2A31;
+    --pale-blue: #d8e1f0;
+    --white: #f8f8f8;
+}
+
 .background-dark-grey {
-    background-color: #2A2A31;
+    background-color: var(--grey);
 }
 
 .background-light-blue {
-    background-color: #0BD9DA;
+    background-color: var(--blue);
+}
+
+.card-dark-background {
+    background-color: rgba(42,42,49,0.9);
 }
 
 /* -------------------------------General rules */
@@ -48,50 +59,81 @@ body {
 }
 
 .underline {
-    border-bottom: 2px solid #f8f8f8;
+    border-bottom: 2px solid var(--white);
     padding-bottom: 2px; 
 }
 
 .row {
     margin: 0;
+    padding: 0;
 }
 
 .button {
-    color: #2A2A31;
-    border-radius: 2px;
+    color: var(--grey);
+    border-radius: 3px;
     text-decoration: none;
-    width: 5em;
-    height: 2em;
-    line-height: 2em;
+    width: 5rem;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
     font-weight: 700;
+}
+
+.card-shadow {
+    box-shadow: 20px 20px 0 0 var(--blue);
+}
+
+.card-body {
+    color: var(--white);
+    margin: 1em auto;
+    width: 80%;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    border-radius: 3px;
+    min-height: 40%;
+    justify-self: flex-start;
+    flex: 0 1 auto;
+}
+
+.card-body > div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-body .button {
+    font-size: 1.2rem;
+    height: auto;
+    width: auto;
+    padding: 0.4rem;
+    line-height: 100%;
+    margin: 0.5rem;
 }
 
 /* -------------------------------animations */
 
 @keyframes fadew-b {
     0% {
-        color: #f8f8f8;
-        border-color: #f8f8f8;
-        font-color: #f8f8f8;
+        color: var(--white);
+        border-color: var(--white);
+        font-color: var(--white);
     }
     100% {
-        color: #0BD9DA;
-        border-color: #0BD9DA;
-        font-color: #0BD9DA;
+        color: var(--blue);
+        border-color: var(--blue);
+        font-color: var(--blue);
     }
 }
 
 @keyframes fadeb-w {
     0% {
-        color: #0BD9DA;
-        border-color: #0BD9DA;
-        font-color: #0BD9DA;
+        color: var(--blue);
+        border-color: var(--blue);
+        font-color: var(--blue);
     }
     100% {
-        color: #f8f8f8;
-        border-color: #f8f8f8;
-        font-color: #f8f8f8;
+        color: var(--white);
+        border-color: var(--white);
+        font-color: var(--white);
     }
 }
 
@@ -106,21 +148,21 @@ header {
 }
 
 .navbar {
-    height: 4em;
+    height: 4rem;
     z-index: 100;
 }
 
 .navbar-logo {
-    height: 3.5em;
-    width: 3.5em;
+    height: 3.5rem;
+    width: 3.5rem;
     position: absolute;
-    left: 2em;
-    top: 0.5em;
+    left: 2rem;
+    top: 0.5rem;
 }
 
 .nav-page-links {
     align-items: center;
-    background-color: #2A2A31;
+    background-color: var(--grey);
 }
 
 .navbar-collapse {
@@ -128,39 +170,40 @@ header {
 }
 
 .nav-page-links li a {
-    color: #f8f8f8;
+    color: var(--white);
     text-decoration: none;
 }
 
 .nav-page-links li a:hover {
-    color: #0BD9DA;
-    border-color: #0BD9DA;
+    color: var(--blue);
+    border-color: var(--blue);
     animation: fadew-b 0.5s ease-in-out;
 }
 
 .nav-link-divider {
-    height: 0.5em;
-    width: 0.5em;
+    height: 0.5rem;
+    width: 0.5rem;
     border-radius: 50%;
-    background-color: #f8f8f8;
-    margin: 0 0.8em;
+    background-color: var(--white);
+    margin: 0 0.8rem;
 }
 
 .navbar-booking-button {
     position: absolute;
-    right: 2em;
-    top: 1em;
+    right: 2rem;
+    top: 1rem;
 }
 
 /* -------------------------------Footer */
 
 .footer {
-    color: #f8f8f8;
+    color: var(--white);
     text-align: center;
+    margin-top: 2rem;
 }
 
 .footer a {
-    color: #0BD9DA;
+    color: var(--blue);
 }
 
 .footer a:hover {
@@ -178,12 +221,12 @@ header {
 
 .footer li a {
     text-decoration: none;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 .footer i {
     display: block;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .footer ul, .footer ol {
@@ -191,11 +234,14 @@ header {
 }
 
 .footer td {
-    padding: 0 0.5em;
+    padding: 0 0.5rem;
 }
 
 .footer-column-spacing {
-    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem 0;
 }
 
 /* -------------------------------Header */
@@ -205,9 +251,8 @@ header {
     background-size: cover;
     background-position: 70% center;
     height: calc(100vh - 4em);
-    width: 100%;
     position: relative;
-    top: 4em;
+    top: 4rem;
     z-index: -1;
 }
 
@@ -218,27 +263,54 @@ header {
     margin: 3em 0;
 }
 
-.card-body {
-    color: #f8f8f8;
-    background-color: rgba(42,42,49,0.9);
-    margin: 1em auto;
-    width: 80%;
-    font-size: 1.5em;
-    line-height: 1.2em;
-    padding: 1em;
+/* -------------------------------About us */
+
+.home-about-us {
+    background: linear-gradient(var(--pale-blue), var(--white));
+    position: relative;
+    top: 4rem;
+    display: block;
+    padding-top: 1rem;
+    text-align: center;
+    z-index: -1;
 }
 
-.card-body > div {
-    display: flex;
-    justify-content: flex-end;
+.home-about-us article {
+    padding: 1.5rem;
 }
 
-.card-body > div a {
-    width: 100%;
-    height: 2em;
-    line-height: 2em;
-    width: 8.5em;
-    margin: 0.5em;
+main h2 {
+    padding: 0.5rem 0 1rem 0;
+    background-color: var(--grey);
+    font-weight: 700;
+    margin: auto auto;
+    border-radius: 3px;
+}
+
+/* -------------------------------News */
+
+.home-news {
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-small.jpg");
+    padding: 1rem;
+    position: relative;
+    top: 4rem;
+    background-size: cover;
+    z-index: -1;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.home-news div div{
+    padding-bottom: 2rem;
+    position: relative;
+    top: 4rem;
+}
+
+/* -------------------------------Contact */
+
+.contact {
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/contact/contact-small.jpg");
+    background-position: 70% center;
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
@@ -248,8 +320,8 @@ header {
     /* ---------------------------nav */
 
     .nav-menu-icon {
-        color: #f8f8f8;
-        font-size: 1.5em;
+        color: var(--white);
+        font-size: 1.5rem;
     }
 
     .nav-menu-icon:hover {
@@ -266,45 +338,55 @@ header {
         height: 100vh;
         width: 100vw;
         justify-content: space-around;
-        margin-top: 4em;
-        padding-bottom: 4em;
+        margin-top: 4rem;
+        padding-bottom: 4rem;
     }
 
     .nav-page-links li a {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .navbar-booking-button {
-        right: 1em;
+        right: 1rem;
     }
 
-    /* ---------------------------header */
+    /* ---------------------------home */
 
     .card-body {
-        font-size: 1em;
-        margin: 0.5em auto;
-        padding: 0.7em;
+        font-size: 1rem;
+        margin: 0.5rem auto;
+        padding: 0.7rem;
     }
 
     .home-main-logo {
-        margin: 1em 0 0 0;
+        margin: 1rem 0 0 0;
         height: 35vh;
+    }
+
+    .home-about-us h2 {
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .home-about-us h2 {
+        font-size: 1.3rem;
+        max-width: 40%;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .home-main-logo {
         margin: 0;
-        height: 25vh
+        height: 25vh;
     }
 
     .card-body h3 {
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 
-    .card-body div a {
-        line-height: 1.5em;
-        height: 1.5em
+    .home-about-us h2 {
+        max-width: 45%;
     }
 }
 
@@ -313,5 +395,8 @@ header {
 @media only screen and (min-width: 720px) {
     .home-intro {
         background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-large.jpg");
+    }
+    .home-news {
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-large.jpg");
     }
 }
