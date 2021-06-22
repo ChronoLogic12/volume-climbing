@@ -310,7 +310,15 @@ main h2 {
 
 .contact {
     background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/contact/contact-small.jpg");
+    background-size: cover;
     background-position: 70% center;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+
+.contact h2 {
+    
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
