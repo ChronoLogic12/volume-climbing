@@ -48,6 +48,10 @@
     background-color: rgba(42,42,49,0.9);
 }
 
+label {
+    color: var(--white) !important;
+}
+
 /* -------------------------------General rules */
 
 body {
@@ -99,13 +103,9 @@ body {
     justify-content: flex-end;
 }
 
-.card-body .button {
-    font-size: 1.2rem;
-    height: auto;
-    width: auto;
-    padding: 0.4rem;
-    line-height: 100%;
-    margin: 0.5rem;
+.form-button {
+    border: none;
+    margin-top: 1rem;
 }
 
 .volume-logo {

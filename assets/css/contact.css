@@ -22,10 +22,6 @@
     margin-top: 0;
 }
 
-label {
-    color: var(--white) !important;
-}
-
 .contact-container {
     display: grid !important;
     grid-template-columns: auto auto;

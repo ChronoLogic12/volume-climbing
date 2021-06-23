@@ -35,9 +35,7 @@
     </header>
     <main>
         <section class="container-fluid contact row">
-            <img src="assets/pictures/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="volume-logo">
-            <div class="col-sm-12">
-            </div>                
+            <img src="assets/pictures/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="volume-logo">               
                 <div class="col-lg-6 col-md-12">
                     <div class="card-body card-shadow card-dark-background contact-card">
                         <p>
@@ -46,13 +44,17 @@
                         <hr>
                         <form>
                             <label for="name" class="form-label form-text">Name: </label>
-                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Name *" required>
                             <label for="email1" class="form-label form-text">Email Address: </label>
-                            <input type="email" class="form-control" id="email1" placeholder="Email" required>
+                            <input type="email" class="form-control" id="email1" placeholder="Email *" required>
                             <label for="phone" class="form-label form-text">Phone: </label>
-                            <input type="tel" class="form-control" id="email1" placeholder="Phone" required>
+                            <input type="tel" class="form-control" id="email1" placeholder="Phone *" required>
                             <label for="message" class="form-label form-text">Your Message: </label>
-                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                            <textarea name="message" id="message" class="form-control" placeholder="Your Message *" rows="5" required></textarea>
+                            <div class="form-text">
+                                * Required field
+                            </div>
+                            <button type="submit" aria-label="send" class="button form-button background-light-blue uppercase">Send</button>
                         </form>
                     </div>
                 </div>
@@ -72,9 +74,9 @@
                                 Birmingham, B1 2XX</div>
                         </div>
                         <div class="contact-socials">
-                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook social-icons"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram social-icons"></i></a>
-                            <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter social-icons"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="bi bi-facebook social-icons"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" aria-label="instagrm"><i class="bi bi-instagram social-icons"></i></a>
+                            <a href="https://www.twitter.com/" target="_blank" aria-label="twitter"><i class="bi bi-twitter social-icons"></i></a>
                         </div>
                     </div>
                 </div>
@@ -97,23 +99,23 @@
                     <table>
                         <tr>
                             <td>Monday</td>
-                            <td>7:00-20:00</td>
+                            <td>7:00-22:00</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
-                            <td>7:00-20:00</td>
+                            <td>7:00-22:00</td>
                         </tr>
                         <tr>
                             <td>Wednesday</td>
-                            <td>7:00-20:00</td>
+                            <td>7:00-22:00</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
-                            <td>7:00-20:00</td>
+                            <td>7:00-22:00</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
-                            <td>7:00-20:00</td>
+                            <td>7:00-22:00</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
@@ -145,9 +147,9 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <a href="https://www.facebook.com/"  target="_blank"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/"  target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.twitter.com/"  target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="bi bi-facebook social-icons"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="instagrm"><i class="bi bi-instagram social-icons"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="twitter"><i class="bi bi-twitter social-icons"></i></a>
                 </div>
             </div>
         </div>
