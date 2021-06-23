@@ -1,0 +1,115 @@
+/* -------------------------------Header */
+
+.home-intro {
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-small.jpg");
+    background-size: cover;
+    background-position: 70% center;
+    height: calc(100vh - 4em);
+    position: relative;
+    top: 4rem;
+}
+
+.home-main-logo {
+    height: 40vh;
+    margin: auto auto;
+}
+
+/* -------------------------------About us */
+
+.home-about-us {
+    background: linear-gradient(var(--pale-blue), var(--white));
+    position: relative;
+    top: 4rem;
+    display: block;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.home-about-us article {
+    padding: 1.5rem;
+}
+
+main h2 {
+    padding: 0.5rem 0 1rem 0;
+    background-color: var(--grey);
+    font-weight: 700;
+    margin: auto auto;
+    border-radius: 3px;
+}
+
+/* -------------------------------News */
+
+.home-news {
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-small.jpg");
+    padding: 1rem;
+    position: relative;
+    top: 4rem;
+    background-size: cover;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.home-news div div {
+    padding-bottom: 2rem;
+    position: relative;
+    top: 4rem;
+}
+
+.home-news div {
+    padding-bottom: 7rem;
+}
+
+/* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
+
+@media only screen and (max-width: 992px) {
+
+    /* ---------------------------Home */
+
+    .card-body {
+        font-size: 1rem;
+        margin: 0.5rem auto;
+        padding: 0.7rem;
+    }
+
+    .home-main-logo {
+        margin: 1rem 0 0 0;
+        height: 35vh;
+    }
+
+    .home-about-us h2 {
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .home-about-us h2 {
+        font-size: 1.3rem;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home-main-logo {
+        margin: 0;
+        height: 25vh;
+    }
+
+    .card-body h3 {
+        font-size: 1.3rem;
+    }
+
+    .home-about-us h2 {
+        max-width: 45%;
+    }
+}
+
+/* -------------------------------Media queries (managing bandwidth for mobile devices)*/
+
+@media only screen and (min-width: 720px) {
+    .home-intro {
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-large.jpg");
+    }
+    .home-news {
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-large.jpg");
+    }
+}

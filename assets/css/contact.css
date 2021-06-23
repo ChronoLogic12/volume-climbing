@@ -1,0 +1,94 @@
+/* -------------------------------Contact */
+
+.contact {
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/contact/contact-small.jpg");
+    background-size: cover;
+    background-position: 70% center;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.contact .card-body p {
+    padding: 1rem 4rem;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 55vh;
+    margin-top: 0;
+}
+
+label {
+    color: var(--white) !important;
+}
+
+.contact-container {
+    display: grid !important;
+    grid-template-columns: auto auto;
+    justify-content: center !important;
+}
+
+.contact-container div:nth-child(odd){
+    text-align: right;
+    padding: 1rem;
+}
+
+.contact-container div:nth-child(even) {
+    text-align: left;
+    padding: 1rem;
+}
+
+.contact-socials {
+    padding-bottom: 3rem;
+    justify-content: space-evenly !important;
+}
+
+/* -------------------------------Map */
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:40vh;
+    width:100vw;
+    top: 4em;
+    margin-bottom: 4em;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:40vh;
+    width:100vw;
+}
+
+/* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
+
+@media only screen and (max-width: 992px) {
+
+    /* ---------------------------Contact */
+
+    .contact-card {
+        margin-bottom: 2rem;
+    }
+
+    .contact .card-body p {
+        padding: 1rem 2rem;
+    }
+
+    .contact form {
+        padding: 1rem;
+
+    }
+}
+
+/* -------------------------------Media queries (managing bandwidth for mobile devices)*/
+
+@media only screen and (min-width: 720px) {
+    .contact {
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/contact/contact-large.jpg");
+    }
+}

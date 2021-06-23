@@ -156,13 +156,11 @@ body {
     padding: 0;
 }
 
-header {
-    position: fixed;
-}
-
 .navbar {
     height: 4rem;
     z-index: 100;
+    position: fixed;
+    top: 0;
 }
 
 .navbar-logo {
@@ -249,135 +247,6 @@ header {
     padding: 1rem 0;
 }
 
-/* -------------------------------Header */
-
-.home-intro {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-small.jpg");
-    background-size: cover;
-    background-position: 70% center;
-    height: calc(100vh - 4em);
-    position: relative;
-    top: 4rem;
-    z-index: -1;
-}
-
-.home-main-logo {
-    height: 40vh;
-    margin: auto auto;
-}
-
-/* -------------------------------About us */
-
-.home-about-us {
-    background: linear-gradient(var(--pale-blue), var(--white));
-    position: relative;
-    top: 4rem;
-    display: block;
-    padding-top: 1rem;
-    text-align: center;
-    z-index: -1;
-}
-
-.home-about-us article {
-    padding: 1.5rem;
-}
-
-main h2 {
-    padding: 0.5rem 0 1rem 0;
-    background-color: var(--grey);
-    font-weight: 700;
-    margin: auto auto;
-    border-radius: 3px;
-}
-
-/* -------------------------------News */
-
-.home-news {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-small.jpg");
-    padding: 1rem;
-    position: relative;
-    top: 4rem;
-    background-size: cover;
-    z-index: -1;
-    margin-bottom: 4em;
-    text-align: center;
-}
-
-.home-news div div{
-    padding-bottom: 2rem;
-    position: relative;
-    top: 4rem;
-}
-
-/* -------------------------------Contact */
-
-.contact {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/contact/contact-small.jpg");
-    background-size: cover;
-    background-position: 70% center;
-    text-align: center;
-    position: relative;
-    top: 4rem;
-    z-index: -1;
-    padding-bottom: 5rem;
-}
-
-.contact .card-body p {
-    padding: 1rem 4rem;
-}
-
-.contact-card {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    min-height: 55vh;
-    margin-top: 0;
-}
-
-label {
-    color: var(--white) !important;
-}
-
-.contact-container {
-    display: grid !important;
-    grid-template-columns: auto auto;
-    justify-content: center !important;
-}
-
-.contact-container div:nth-child(odd){
-    text-align: right;
-    padding: 1rem;
-}
-
-.contact-container div:nth-child(even) {
-    text-align: left;
-    padding: 1rem;
-}
-
-.contact-socials {
-    padding-bottom: 3rem;
-    justify-content: space-evenly !important;
-}
-
-/* -------------------------------Map */
-
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:40vh;
-    width:100vw;
-    top: 4em;
-    margin-bottom: 4em;
-    z-index: -1;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:40vh;
-    width:100vw;
-}
-
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
 @media only screen and (max-width: 992px) {
@@ -414,69 +283,18 @@ label {
     .navbar-booking-button {
         right: 1rem;
     }
-
-    /* ---------------------------Home */
-
-    .card-body {
-        font-size: 1rem;
-        margin: 0.5rem auto;
-        padding: 0.7rem;
-    }
-
-    .home-main-logo {
-        margin: 1rem 0 0 0;
-        height: 35vh;
-    }
-
-    .home-about-us h2 {
-        max-width: 35%;
-    }
-
-    /* ---------------------------Contact */
-
-    .contact-card {
-        margin-bottom: 2rem;
-    }
-
-    .contact .card-body p {
-        padding: 1rem 2rem;
-    }
-
-    .contact form {
-        padding: 1rem;
-
-    }
 }
 
 @media only screen and (max-width: 420px) {
-    .home-about-us h2 {
-        font-size: 1.3rem;
-        max-width: 40%;
-    }
+    
 }
 
 @media only screen and (max-width: 320px) {
-    .home-main-logo {
-        margin: 0;
-        height: 25vh;
-    }
-
-    .card-body h3 {
-        font-size: 1.3rem;
-    }
-
-    .home-about-us h2 {
-        max-width: 45%;
-    }
+    
 }
 
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/
 
 @media only screen and (min-width: 720px) {
-    .home-intro {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-large.jpg");
-    }
-    .home-news {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-large.jpg");
-    }
+    
 }
