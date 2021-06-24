@@ -1,21 +1,25 @@
+/* -------------------------------Gallery */
+
 .gallery {
-    background-image: linear-gradient(to right, #fc00ff, #00dbde);
+    background-image: linear-gradient(#c007c4, #07a7af);
     text-align: center;
     position: relative;
     top: 4rem;
-    padding: 5rem;
-    display: flex;
-    text-align: center;
 }
 
-.gallery a {
+.gallery i {
     color: var(--blue);
     margin: auto auto;
-    font-size: 10rem;
+    position: absolute;
+    top: 2rem;
+    font-size: 6rem;
+    transform: translateX(-50%);
 }
 
 .images {
-    padding: 4rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    padding-top: 10rem;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
@@ -23,4 +27,26 @@
 
 .images img {
     width: 100%;
+}
+
+.container {
+    clear: both;
+}
+
+@media only screen and (max-width: 1200px) {
+    .images {
+        column-count: 3;
+    }
+} 
+
+@media only screen and (max-width: 992px) {
+    .images {
+        column-count: 2;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .images {
+        column-count: 1;
+    }   
 }

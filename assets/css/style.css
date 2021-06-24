@@ -178,7 +178,7 @@ body {
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 50%;
-    background-color: var(--white);
+    /* background-color: var(--white); */
     margin: 0 0.8rem;
 }
 

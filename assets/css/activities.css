@@ -1,9 +1,7 @@
-/* -------------------------------Booking */
+/* -------------------------------Activities */
 
 .activities {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/contact/contact-small.jpg");
-    background-size: cover;
-    background-position: 70% center;
+    background-image: linear-gradient(#c007c4, #07a7af);
     text-align: center;
     position: relative;
     top: 4rem;
