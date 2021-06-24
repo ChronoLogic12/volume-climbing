@@ -10,3 +10,27 @@
     padding-bottom: 5rem;
     margin-bottom: 4rem;
 }
+
+.activities div  {
+    margin-top: 5rem;
+    height: 30vh;
+}
+
+.activities img {
+    height: 100%;
+    object-fit: cover;
+    width: 70%;
+}
+
+.activities .card-body {
+    height: 30vh;
+    width: 40vw;
+}
+
+/* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
+
+@media only screen and (max-width: 992px) {
+    .activities .card-body {
+        width: 60vw;
+    }
+}  

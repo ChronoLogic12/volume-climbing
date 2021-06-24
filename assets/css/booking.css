@@ -11,6 +11,13 @@
     margin-bottom: 4rem;
 }
 
+/* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
+
+@media only screen and (max-width: 992px) {
+    /* box sizing on large screens */
+
+}  
+
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/
 
 @media only screen and (min-width: 720px) {
