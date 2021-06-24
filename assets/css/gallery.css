@@ -1,0 +1,7 @@
+.gallery {
+    background-color: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3));
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    padding: 5rem;
+}
