@@ -69,6 +69,7 @@ a, a:hover {
 body {
     font-family: Lato, sans-serif;
     background: linear-gradient(var(--pale-blue), var(--white));
+    word-spacing: 3px;
 }
 
 .uppercase {
@@ -103,7 +104,7 @@ body {
     margin: 1em auto;
     width: 80%;
     font-size: 1.3rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     border-radius: 3px;
     min-height: 40%;
     justify-self: flex-start;
@@ -124,6 +125,13 @@ body {
     height: 28vh;
     width: 100%;
     margin: auto auto;
+}
+
+/* -------------------------------Button hover effects */
+
+.button:hover {
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
 }
 
 /* -------------------------------Social media Links */
@@ -169,17 +177,11 @@ body {
     text-decoration: none;
 }
 
-.nav-page-links a:hover {
-    color: var(--blue);
-    border-color: var(--blue);
-    animation: all 0.5s ease-in-out;
-}
-
 .nav-link-divider {
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 50%;
-    /* background-color: var(--white); */
+    background-color: var(--white);
     margin: 0 0.8rem;
 }
 
@@ -189,18 +191,20 @@ body {
     top: 1rem;
 }
 
+/* -------------------------------Navbar hover effects */
+
+.nav-page-links a:hover {
+    color: var(--blue);
+    border-color: var(--blue);
+    transition: all 0.5s ease-in-out;
+}
+
 /* -------------------------------Footer */
 
 .footer {
     color: var(--white);
     text-align: center;
     margin-top: 2rem;
-}
-
-.footer a:hover {
-    color: var(--white);
-    border-color: var(--white);
-    animation: all 0.5s ease-in-out;
 }
 
 .footer table {
@@ -231,6 +235,14 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem 0;
+}
+
+/* -------------------------------Footer hover effects*/
+
+.footer a:hover {
+    color: var(--white);
+    border-color: var(--white);
+    transition: all 0.5s ease-in-out;
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/

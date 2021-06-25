@@ -26,7 +26,7 @@
 /* -------------------------------About us */
 
 .home-about-us {
-    background: linear-gradient(var(--pale-blue), var(--white));
+    background: linear-gradient(hsl(340, 35%, 70%), hsl(225, 20%, 70%));
     position: relative;
     top: 4rem;
     display: block;
@@ -62,6 +62,7 @@ main h2 {
     padding-bottom: 2rem;
     position: relative;
     top: 4rem;
+    margin: 0 auto;
 }
 
 .home-news div {

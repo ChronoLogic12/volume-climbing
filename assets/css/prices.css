@@ -1,7 +1,7 @@
 /* -------------------------------Prices */
 
 .prices {
-    background: linear-gradient(var(--pale-blue), var(--white));
+    background: linear-gradient(#efd8f0, var(--pale-blue));
     /* background-image: linear-gradient(#c007c4, #07a7af); */
     text-align: center;
     position: relative;

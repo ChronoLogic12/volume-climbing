@@ -1,7 +1,7 @@
 /* -------------------------------Gallery */
 
 .gallery {
-    background: linear-gradient(var(--pale-blue), var(--white));
+    background: linear-gradient(#efd8f0, var(--pale-blue));
     /* background-image: linear-gradient(#c007c4, #07a7af); */
     text-align: center;
     position: relative;
@@ -15,6 +15,13 @@
     top: 2rem;
     font-size: 6rem;
     transform: translateX(-50%);
+    text-shadow: 2px 2px 5px var(--grey) ;
+}
+
+.gallery i:hover {
+    color: var(--white);
+    text-shadow: 3px 3px 6px var(--grey);
+    transition: all 0.5s ease-in-out;
 }
 
 .images {
