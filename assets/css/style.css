@@ -68,6 +68,7 @@ a, a:hover {
 
 body {
     font-family: Lato, sans-serif;
+    background: linear-gradient(var(--pale-blue), var(--white));
 }
 
 .uppercase {

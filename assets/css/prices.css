@@ -1,5 +1,8 @@
+/* -------------------------------Prices */
+
 .prices {
-    background-image: linear-gradient(#c007c4, #07a7af);
+    background: linear-gradient(var(--pale-blue), var(--white));
+    /* background-image: linear-gradient(#c007c4, #07a7af); */
     text-align: center;
     position: relative;
     top: 4rem;
@@ -36,4 +39,5 @@
 
 .prices th {
     line-height: 1.5rem;
+    padding-bottom: 0.5rem;
 }

@@ -68,6 +68,11 @@ main h2 {
     padding-bottom: 7rem;
 }
 
+.home-news img {
+    width:100%;
+    padding: 1rem;
+}
+
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
 @media only screen and (max-width: 992px) {
