@@ -3,4 +3,37 @@
     text-align: center;
     position: relative;
     top: 4rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    min-height: calc(100vh - 4rem);
+}
+
+.prices .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.prices p {
+    padding-top: 2rem;
+}
+
+.prices table {
+    margin: 2rem 0;
+}
+
+.prices .button-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.prices tr {
+    border-bottom: var(--white) solid 2px;
+    line-height: 2.5rem;
+}
+
+.prices th {
+    line-height: 1.5rem;
 }
