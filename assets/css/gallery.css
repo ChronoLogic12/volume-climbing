@@ -2,7 +2,6 @@
 
 .gallery {
     background: linear-gradient(#efd8f0, var(--pale-blue));
-    /* background-image: linear-gradient(#c007c4, #07a7af); */
     text-align: center;
     position: relative;
     top: 4rem;
@@ -15,12 +14,12 @@
     top: 2rem;
     font-size: 6rem;
     transform: translateX(-50%);
-    text-shadow: 2px 2px 5px var(--grey) ;
+    text-shadow: 2px 2px 5px #493249;
 }
 
 .gallery i:hover {
     color: var(--white);
-    text-shadow: 3px 3px 6px var(--grey);
+    text-shadow: 3px 3px 6px #493249;
     transition: all 0.5s ease-in-out;
 }
 
@@ -40,6 +39,8 @@
 .container {
     clear: both;
 }
+
+/* -------------------------------Media queries to set gallery column count based on screen width */
 
 @media only screen and (max-width: 1200px) {
     .images {

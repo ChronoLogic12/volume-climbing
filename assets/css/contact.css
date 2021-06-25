@@ -11,7 +11,7 @@
 }
 
 .contact .card-body p {
-    padding: 1rem 4rem;
+    padding: 0 4rem;
 }
 
 .contact-card {
@@ -45,25 +45,20 @@
 
 /* -------------------------------Contact hover effects */
 
-
+.social-icons:hover {
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+}
 
 
 /* -------------------------------Map */
 
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:40vh;
-    width:100vw;
+iframe {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
     top: 4em;
-    margin-bottom: 4em;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:40vh;
-    width:100vw;
+    margin-bottom: 1.7rem;
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/

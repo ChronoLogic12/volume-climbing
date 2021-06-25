@@ -101,12 +101,11 @@ body {
 
 .card-body {
     color: var(--white);
-    margin: 1em auto;
+    margin: auto auto;
     width: 80%;
     font-size: 1.3rem;
     line-height: 1.5rem;
     border-radius: 3px;
-    min-height: 40%;
     justify-self: flex-start;
     flex: 0 1 auto;
 }

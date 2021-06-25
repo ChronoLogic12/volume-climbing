@@ -2,13 +2,17 @@
 
 .prices {
     background: linear-gradient(#efd8f0, var(--pale-blue));
-    /* background-image: linear-gradient(#c007c4, #07a7af); */
     text-align: center;
     position: relative;
     top: 4rem;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     margin-bottom: 4rem;
     min-height: calc(100vh - 4rem);
+}
+
+.prices > div {
+    padding: 0;
 }
 
 .prices .card-body {
@@ -24,6 +28,8 @@
 
 .prices table {
     margin: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .prices .button-container {
@@ -41,3 +47,20 @@
     line-height: 1.5rem;
     padding-bottom: 0.5rem;
 }
+
+.prices td {
+    padding: 0 1rem;
+}
+
+.card-body > div {
+    justify-content: center;
+}
+
+
+/* -------------------------------Media query to space cards out when in single verticle column on smaller screens */
+
+@media only screen and (max-width: 1200px) {
+    .prices > div:nth-child(2) {
+        margin-top: 5rem;
+    }
+} 
