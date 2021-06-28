@@ -102,7 +102,7 @@ body {
 .card-body {
     color: var(--white);
     margin: auto auto;
-    width: 80%;
+    width: 85%;
     font-size: 1.3rem;
     line-height: 1.5rem;
     border-radius: 3px;

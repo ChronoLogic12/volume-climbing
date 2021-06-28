@@ -8,12 +8,7 @@
     padding: 4rem 2rem 1rem 0;
     margin-bottom: 4rem;
     min-height: calc(100vh - 4rem);
-}
-
-.prices > div {
-    padding: 0;
-    
-}
+} 
 
 .prices .card-body {
     display: flex;
