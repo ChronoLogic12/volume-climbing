@@ -119,12 +119,25 @@ article > p {
         font-size: 1.3rem;
         max-width: 40%;
     }
+
+    .home-main-logo {
+        height: 25vh;
+    }
+
+    article > p {
+        margin: 0.5rem;
+    }
+    
 }
 
 @media only screen and (max-width: 320px) {
     .home-main-logo {
         margin: 0;
-        height: 25vh;
+        height: 15vh;
+    }
+
+    article > p {
+        margin: 0.2rem;
     }
 
     .card-body h3 {

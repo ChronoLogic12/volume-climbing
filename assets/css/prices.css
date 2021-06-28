@@ -44,7 +44,7 @@
 }
 
 .prices td {
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .card-body > div {
@@ -53,10 +53,32 @@
 }
 
 
-/* -------------------------------Media query to space cards out when in single verticle column on smaller screens */
+/* -------------------------------Media query to adjust spacing on small screens */
 
-@media only screen and (max-width: 1200px) {
-    /* .prices > div:nth-child(2) {
-        margin-top: 3rem;
-    } */
+@media only screen and (max-width: 1399px) {
+    .prices {
+        padding: 4rem 0 1rem 0;
+    } 
 } 
+
+
+@media only screen and (max-width: 576px) {
+    .prices .card-body{
+        font-size: 1rem;
+        line-height: 1rem;
+    } 
+
+    .prices td, th {
+        padding: 0 0.5rem;
+    }
+
+    .card-body > div {
+        margin: 0;
+    }
+} 
+
+@media only screen and (max-width: 460px) {
+    .prices td, th {
+        padding: 0 0.2;
+    }
+}
