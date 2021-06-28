@@ -29,13 +29,12 @@
     background: linear-gradient(hsl(340, 35%, 70%), hsl(225, 20%, 70%));
     position: relative;
     top: 4rem;
-    display: block;
     padding-top: 2rem;
     text-align: center;
 }
 
 .home-about-us article {
-    padding: 1.5rem;
+    padding: 3rem;
 }
 
 main h2 {
@@ -44,6 +43,25 @@ main h2 {
     font-weight: 700;
     margin: auto auto;
     border-radius: 3px;
+}
+
+.about-us-centre-wide-shot {
+    width: 100%;
+}
+
+.about-us-volume-team {
+    width: 50%;
+    margin: auto auto;
+    padding: 1rem 0;
+}
+
+.about-us-the-team p {
+    display: flex;
+    align-items: center;
+}
+
+article > p {
+    margin: 2rem;
 }
 
 /* -------------------------------News */
