@@ -1,7 +1,7 @@
 /* -------------------------------Booking */
 
 .booking {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures//booking/booking-small.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_90,w_1000/v1624981722/Volume/booking-large_lgacrs.jpg");
     background-size: cover;
     background-position: 70% center;
     text-align: center;
@@ -21,7 +21,8 @@
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/
 
 @media only screen and (min-width: 720px) {
-    .contact {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/booking/booking-large.jpg");
+    .booking {
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_90,w_2479/v1624981722/Volume/booking-large_lgacrs.jpg");
+        min-height: 80vh;
     }
 }

@@ -1,7 +1,7 @@
 /* -------------------------------Header */
 
 .home-intro {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-small.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_100,w_900/v1624975862/Volume/home-header-large_wct6dz.jpg");
     background-size: cover;
     background-position: 70% center;
     height: calc(100vh - 4em);
@@ -66,7 +66,7 @@ main h2 {
 /* -------------------------------News */
 
 .home-news {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-small.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_crop,h_1662,w_854,x_1700,y_637/v1624975865/Volume/home-news-large_baegri.jpg");
     padding: 1rem;
     position: relative;
     top: 4rem;
@@ -115,8 +115,13 @@ main h2 {
 
 @media only screen and (max-width: 420px) {
     .home-about-us h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
         max-width: 40%;
+        margin-bottom: 0;
+    }
+
+    .home-about-us article {
+        padding: 1rem;
     }
 
     .home-main-logo {
@@ -126,7 +131,14 @@ main h2 {
     article > p {
         margin: 0;
     }
-    
+
+    .card-body article {
+        padding: 0;
+    }    
+
+    .home-intro .card-body .button {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -146,11 +158,12 @@ main h2 {
 
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
     .home-intro {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-header-large.jpg");
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_70,w_1920/v1624975862/Volume/home-header-large_wct6dz.jpg");
     }
     .home-news {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("/assets/pictures/home/home-news-large.jpg");
+        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,h_1062,q_86,w_1920/v1624975865/Volume/home-news-large_baegri.jpg");
     }
 }
+
