@@ -60,10 +60,9 @@ main h2 {
     align-items: center;
 }
 
-article > p {
-    margin: 2rem;
+.card-body article{
+    padding: 1rem;
 }
-
 /* -------------------------------News */
 
 .home-news {
@@ -109,8 +108,8 @@ article > p {
         height: 35vh;
     }
 
-    .home-about-us h2 {
-        max-width: 35%;
+    .about-us-volume-team {
+        width: 80%;
     }
 }
 
@@ -125,7 +124,7 @@ article > p {
     }
 
     article > p {
-        margin: 0.5rem;
+        margin: 0;
     }
     
 }
@@ -134,10 +133,6 @@ article > p {
     .home-main-logo {
         margin: 0;
         height: 15vh;
-    }
-
-    article > p {
-        margin: 0.2rem;
     }
 
     .card-body h3 {
