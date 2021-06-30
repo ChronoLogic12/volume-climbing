@@ -35,3 +35,9 @@
         width: 60vw;
     }
 }  
+
+@media only screen and (min-width: 992px) {
+    .activities .card-body {
+        margin-top: 9%;
+    }
+}

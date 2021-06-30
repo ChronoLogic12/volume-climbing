@@ -155,6 +155,11 @@ main h2 {
     .home-about-us h2 {
         max-width: 45%;
     }
+
+    .home-intro .card-body .button {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
 }
 
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/

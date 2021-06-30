@@ -285,17 +285,3 @@ body {
         right: 1rem;
     }
 }
-
-@media only screen and (max-width: 420px) {
-    
-}
-
-@media only screen and (max-width: 320px) {
-    
-}
-
-/* -------------------------------Media queries (managing bandwidth for mobile devices)*/
-
-@media only screen and (min-width: 720px) {
-    
-}

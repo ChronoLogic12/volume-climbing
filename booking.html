@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Book your next climbing or bouldering session at Volume using out online booking form.">
     <link rel="shortcut icon" type="image/jpg" href="/assets/images/volume-logo-no-text.svg"/>
+    <!-- Style sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -13,6 +14,7 @@
     <title>Volume: Climbing Centre</title>
 </head>
 <body>
+    <!-- Navigation bar -->
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg background-dark-grey container-fluid">
             <a href="index.html"><img src="assets/images/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
@@ -29,20 +31,21 @@
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list nav-menu-icon"></i>
             </button>
             <a href="booking.html" class="button navbar-booking-button background-light-blue uppercase">Book</a>
         </nav>
     </header>
     <main>
+        <!-- Booking form -->
         <section class="container-fluid booking row">
             <img src="assets/images/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="volume-logo">               
             <div class="col-sm-12">
                 <div class="card-body card-shadow card-dark-background">
                     <h2>Online Booking</h2>
                     <hr>
-                    <form class="row">
+                    <form action="#" method="POST" class="row">
                         <div class="col-md-12 col-lg-8">
                             <label for="name" class="form-label form-text">Name: </label>
                             <input type="text" class="form-control" id="name" placeholder="Name *" required>
@@ -61,7 +64,7 @@
                         </div>
                         <div class="col-md-12 col-lg-4">
                             <label for="time" class="form-label form-text">Time: *</label>
-                            <input type="time" name="time" id="time" class="form-control" min="7:00" max="22:00" value="07:00" step="1800" required>
+                            <input type="time" name="time" id="time" class="form-control" min="07:00" max="22:00" value="07:00" step="1800" required>
                             <label for="date" class="form-label form-text">Date: *</label>
                             <input type="date" name="date" id="date" class="form-control" value="2021-01-01" required>
                         </div>
@@ -76,6 +79,7 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="container-fluid footer background-dark-grey">
             <div class="row">
@@ -113,7 +117,7 @@
                     </table>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
-                    <h5 class="uppercase">Volume Climbing<h5>
+                    <h5 class="uppercase">Volume Climbing</h5>
                         123 Example Street,<br>
                         Birmingham,<br>
                         B1 2XY
@@ -139,6 +143,7 @@
             </div>
         </div>
     </footer> 
+    <!-- Bootstrap javascript script - https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
