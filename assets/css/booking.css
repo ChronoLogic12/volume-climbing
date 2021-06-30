@@ -11,11 +11,22 @@
     margin-bottom: 4rem;
 }
 
+.booking .card-body {
+    width: 50%;
+}
+
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
-@media only screen and (max-width: 992px) {
-    /* box sizing on large screens */
+@media only screen and (max-width: 1400px) {
+    .booking .card-body {
+        width: 80%;
+    }
+}  
 
+@media only screen and (min-width: 1800px) {
+    .booking .card-body {
+        padding: 1rem 5rem;
+    }
 }  
 
 /* -------------------------------Media queries (managing bandwidth for mobile devices)*/

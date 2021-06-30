@@ -5,9 +5,9 @@
     text-align: center;
     position: relative;
     top: 4rem;
-    padding: 4rem 2rem 1rem 0;
+    padding: 4rem 0 1rem 0;
     margin-bottom: 4rem;
-    min-height: calc(100vh - 4rem);
+    min-height: 80vh;
 } 
 
 .prices .card-body {
@@ -41,26 +41,19 @@
 .prices th {
     line-height: 1.5rem;
     padding-bottom: 0.5rem;
-}
-
-.prices td {
-    padding: 0 2rem;
+    padding-left: 1rem;
 }
 
 .card-body > div {
-    justify-content: center;
     margin-right: 2rem;
+}
+
+.prices-equipment td {
+    padding-left: 1rem;;
 }
 
 
 /* -------------------------------Media query to adjust spacing on small screens */
-
-@media only screen and (max-width: 1399px) {
-    .prices {
-        padding: 4rem 0 1rem 0;
-    } 
-} 
-
 
 @media only screen and (max-width: 576px) {
     .prices .card-body{
@@ -78,7 +71,35 @@
 } 
 
 @media only screen and (max-width: 460px) {
+    .prices .card-body {
+        width: 92%;
+    }
+
     .prices td, th {
-        padding: 0 0.2;
+        padding: 0;
+        padding-left: 0.5rem !important;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .prices .card-body {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1870px) {
+    .prices {
+        padding: 2rem 15vw;
+    } 
+} 
+
+@media only screen and (min-width: 1400px) {
+    .prices div:nth-child(1) {
+        margin-top: 3rem;
+    }
+}
+
+
+
+
+

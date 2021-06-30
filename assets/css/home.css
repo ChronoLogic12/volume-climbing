@@ -111,6 +111,14 @@ main h2 {
     .about-us-volume-team {
         width: 80%;
     }
+
+    article > p {
+        margin: 0;
+    }
+
+    .card-body article {
+        padding: 0;
+    }    
 }
 
 @media only screen and (max-width: 420px) {
@@ -128,14 +136,7 @@ main h2 {
         height: 25vh;
     }
 
-    article > p {
-        margin: 0;
-    }
-
-    .card-body article {
-        padding: 0;
-    }    
-
+    
     .home-intro .card-body .button {
         margin: 0;
     }

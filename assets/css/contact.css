@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    min-height: 55vh;
+    min-height: 60vh;
     margin-top: 0;
 }
 
@@ -39,8 +39,12 @@
 }
 
 .contact-socials {
-    padding-bottom: 3rem;
+    padding: 3rem 0;
     justify-content: space-evenly !important;
+}
+
+hr {
+    margin: 0;
 }
 
 /* -------------------------------Contact hover effects */
@@ -63,6 +67,12 @@ iframe {
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
+@media only screen and (max-width: 1400px) {
+    .contact .card-body p {
+        padding: 0 2rem;
+    }
+}
+
 @media only screen and (max-width: 992px) {
 
     /* ---------------------------Contact */
@@ -77,7 +87,6 @@ iframe {
 
     .contact form {
         padding: 1rem;
-
     }
 }
 
