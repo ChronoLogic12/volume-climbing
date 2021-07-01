@@ -29,7 +29,7 @@
     background: linear-gradient(hsl(340, 35%, 70%), hsl(225, 20%, 70%));
     position: relative;
     top: 4rem;
-    padding-top: 2rem;
+    padding: 2rem 0;
     text-align: center;
 }
 
@@ -93,12 +93,11 @@ main h2 {
 
 @media only screen and (max-width: 992px) {
 
-    /* ---------------------------Home */
-
     .card-body {
         font-size: 1rem;
         margin: 0.5rem auto;
         padding: 0.7rem;
+        transform: none;
     }
 
     .home-main-logo {
@@ -120,20 +119,18 @@ main h2 {
 }
 
 @media only screen and (max-width: 420px) {
-    .home-about-us h2 {
-        font-size: 1rem;
-        max-width: 40%;
-        margin-bottom: 0;
-    }
 
     .home-about-us article {
-        padding: 1rem;
+        padding: 0.5rem;
+    }
+
+    .home-intro-card-heading {
+        font-size: 1rem;
     }
 
     .home-main-logo {
         height: 25vh;
     }
-
     
     .home-intro .card-body .button {
         margin: 0;
@@ -144,14 +141,6 @@ main h2 {
     .home-main-logo {
         margin: 0;
         height: 15vh;
-    }
-
-    .card-body h3 {
-        font-size: 1.3rem;
-    }
-
-    .home-about-us h2 {
-        max-width: 45%;
     }
 
     .home-intro .card-body .button {
