@@ -125,7 +125,7 @@ main h2 {
     }
 
     .home-intro-card-heading {
-        font-size: 1rem;
+        font-size: 1.4rem !important;
     }
 
     .home-main-logo {
