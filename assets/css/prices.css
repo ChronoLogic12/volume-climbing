@@ -5,7 +5,7 @@
     text-align: center;
     position: relative;
     top: 4rem;
-    padding: 6rem 0 1rem 0;
+    padding: 4rem 0 1rem 0;
     margin-bottom: 4rem;
     min-height: 80vh;
 } 
@@ -93,8 +93,8 @@
 } 
 
 @media only screen and (min-width: 1400px) {
-    .prices article:nth-child(1) {
-        margin-top: 2rem;
+    .col-xxl-8 {
+        padding-top: 2rem;
     }
 }
 

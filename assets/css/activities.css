@@ -7,6 +7,7 @@
     top: 4rem;
     padding-bottom: 5rem;
     margin-bottom: 4rem;
+
 }
 
 .activities article  {
@@ -21,23 +22,23 @@
 }
 
 .activities .card-body {
-    height: fit-content;
     width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translatex(-20px);
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
 
 @media only screen and (max-width: 992px) {
     .activities .card-body {
-        width: 60vw;
+        width: 80vw;
+        transform: translatex(-5px);
+        height: fit-content;
+    }
+
+    .activities img {
+        transform: translateX(-5px);
     }
 }  
-
-@media only screen and (min-width: 992px) {
-    .activities .card-body {
-        margin-top: 9%;
-    }
-}

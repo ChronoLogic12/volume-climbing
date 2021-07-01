@@ -112,7 +112,7 @@ body {
     border-radius: 3px;
     justify-self: flex-start;
     flex: 0 1 auto;
-    transform: translateY(-20px);
+    transform: translatex(-20px);
 }
 
 .card-body > div {
