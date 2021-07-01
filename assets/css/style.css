@@ -92,6 +92,7 @@ body {
     line-height: 2rem;
     text-align: center;
     font-weight: 700;
+    transition: all 0.4s ease-in-out;
 }
 
 .card-shadow {
@@ -104,13 +105,14 @@ body {
 
 .card-body {
     color: var(--white);
-    margin: auto auto;
+    margin: auto;
     width: 85%;
     font-size: 1.3rem;
     line-height: 1.5rem;
     border-radius: 3px;
     justify-self: flex-start;
     flex: 0 1 auto;
+    transform: translateY(-20px);
 }
 
 .card-body > div {
@@ -120,20 +122,23 @@ body {
 
 .form-button {
     border: none;
-    margin-top: 1rem;
 }
 
 .volume-logo {
     height: 28vh;
     width: 100%;
-    margin: auto auto;
+    margin: auto;
+}
+
+p[role="heading"] {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
 }
 
 /* -------------------------------Button hover effects */
 
 .button:hover {
     color: var(--white);
-    transition: all 0.5s ease-in-out;
 }
 
 /* -------------------------------Social media Links */
@@ -177,6 +182,7 @@ body {
 .nav-page-links li a {
     color: var(--white);
     text-decoration: none;
+    transition: all 0.4s ease-in-out;
 }
 
 .nav-link-divider {
@@ -198,7 +204,6 @@ body {
 .nav-page-links a:hover {
     color: var(--blue);
     border-color: var(--blue);
-    transition: all 0.5s ease-in-out;
 }
 
 /* -------------------------------Footer */
@@ -218,6 +223,7 @@ body {
     list-style-type: none;
     text-decoration: none;
     color: var(--blue);
+    transition: all 0.4s ease-in-out;
 }
 
 .footer i {
@@ -226,6 +232,7 @@ body {
 
 .footer ul, .footer ol {
     padding-left: 0;
+    margin: 0;
 }
 
 .footer td {
@@ -239,12 +246,15 @@ body {
     padding: 1rem 0;
 }
 
+.footer p[role="heading"] {
+    font-size: 1.3rem;
+}
+
 /* -------------------------------Footer hover effects*/
 
 .footer a:hover {
     color: var(--white);
     border-color: var(--white);
-    transition: all 0.5s ease-in-out;
 }
 
 /* -------------------------------Media queries (adapting elements to fit smaller screen sizes)*/
@@ -256,11 +266,6 @@ body {
     .nav-menu-icon {
         color: var(--white);
         font-size: 1.5rem;
-    }
-
-    .nav-menu-icon:hover {
-        color: var(--blue);
-        animation: all 0.5s ease-in;
     }
 
     .navbar-toggler {

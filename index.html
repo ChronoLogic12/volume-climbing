@@ -9,8 +9,8 @@
     <!-- Style sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/home.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/home.css" rel="stylesheet" type="text/css">
     <title>Volume: Climbing Centre</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg background-dark-grey container-fluid">
             <a href="index.html"><img src="assets/images/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
-            <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
+            <article class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
                 <ul class="nav-page-links uppercase navbar-nav" >
                     <li class="nav-item"><a class="nav-link underline" href="index.html">Home</a></li>
                     <li class="nav-link-divider"></li>
@@ -30,7 +30,7 @@
                     <li class="nav-link-divider"></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-            </div>
+            </article>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list nav-menu-icon"></i>
             </button>
@@ -41,146 +41,140 @@
         <!-- Hero image and links to news cards -->
         <section class="container-fluid home-intro row">
             <img src="assets/images/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="home-main-logo">
-                <div class="col-lg-6 col-md-12">
-                    <div class="card-body card-dark-background">
+                <section class="col-lg-6 col-md-12">
+                    <div role="presentation" class="card-body card-dark-background">
                         <article>
                             <h3 class="uppercase">New Climbers</h3>
                             <p>New to climbing? Why not join us for one of our taster sessions and learn just how much fun it can be!</p>
                         </article>
-                        <div>
+                        <div role="presentation">
                             <a href="#news" class="button background-light-blue uppercase">Find out more</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="card-body card-dark-background">
+                </section>
+                <section class="col-lg-6 col-md-12">
+                    <div role="presentation" class="card-body card-dark-background">
                         <article>
                             <h3 class="uppercase">Coffee and Climb</h3>
                             <p>Meet up with other climbers for a chat and some of our speciality roast coffee before hitting the walls.</p>
                         </article>
-                        <div>
+                        <div role="presentation">
                             <a href="#news" class="button background-light-blue uppercase">Find out more</a>
                         </div>
                     </div>
-                </div>
+                </section>
         </section>  
         <!-- About us -->
         <section class="container-fluid home-about-us row">
-                <article class="card-body background-dark-grey card-shadow">
-                    <h2 class="uppercase">About us</h2>
-                    <p>
-                        Here at Volume, we’re passionate about bringing great climbing to you and bringing great climbers together. Our brand new, state of the art centre in the center of Birmingham boasts hundreds of routes for both bouldering and rope climbing set by world class route setters. Our friendly, knowledgeable staff are always eager to help and our expert training courses will see you beating your climbing goals no matter your current skill level. Whether you're interested in learning something new, training hard, challenging yourself or just meeting new, exciting people, join us at Volume. 
+            <article class="card-body background-dark-grey card-shadow">
+                <h2 class="uppercase">About us</h2>
+                <p>
+                    Here at Volume, we’re passionate about bringing great climbing to you and bringing great climbers together. Our brand new, state of the art centre in the center of Birmingham boasts hundreds of routes for both bouldering and rope climbing set by world class route setters. Our friendly, knowledgeable staff are always eager to help and our expert training courses will see you beating your climbing goals no matter your current skill level. Whether you're interested in learning something new, training hard, challenging yourself or just meeting new, exciting people, join us at Volume. 
+                </p>
+                <hr>
+                <article class="row about-us-the-team">
+                    <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978286/Volume/about-us-team_d6ezdf.jpg" alt="Group of four happy, athletic people dressed for climbing stood shoulder to shoulder"  class="about-us-volume-team col-lg-6 col-md-12">
+                    <p class="col-lg-6 col-md-12">
+                        Volumes are AWESOME! In Case you’re new to the term, a volume in climbing is an extremely large type of hold. They come in all sorts of crazy shapes and are so big you can attach other holds to them. They often change the shape of sections of wall and so can create near infinite variety in route setting and climbing styles. Our founder, Markus Bowden, LOVES volumes, and when it came time to name our new centre it felt like a no brainer. That’s what we are. We change the shape of the wall and hope to bring people together by promoting variety in all things climbing. We ask people to think and work together to figure out the solution. And more than anything, we’re a whole lot of fun! We hope to see you all on the walls having fun really soon.
                     </p>
-                    <hr>
-                    <div class="row about-us-the-team">
-                        <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978286/Volume/about-us-team_d6ezdf.jpg" alt="Group of four happy, athletic people dressed for climbing stood shoulder to shoulder"  class="about-us-volume-team col-lg-6 col-md-12">
-                        <p class="col-lg-6 col-md-12">
-                            Volumes are AWESOME! In Case you’re new to the term, a volume in climbing is an extremely large type of hold. They come in all sorts of crazy shapes and are so big you can attach other holds to them. They often change the shape of sections of wall and so can create near infinite variety in route setting and climbing styles. Our founder, Markus Bowden, LOVES volumes, and when it came time to name our new centre it felt like a no brainer. That’s what we are. We change the shape of the wall and hope to bring people together by promoting variety in all things climbing. We ask people to think and work together to figure out the solution. And more than anything, we’re a whole lot of fun! We hope to see you all on the walls having fun really soon.
-                        </p>
-                    </div>
                 </article>
-            <article>
             </article>
         </section>
         <!-- News cards -->
         <section class="container-fluid home-news row"  id="news">
-            <div class="container-fluid row">
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <article class="card-body card-dark-background card-shadow">
-                        <h3 class="uppercase">Coffee and Climb</h3>
-                        <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978323/Volume/coffee-small_ijzkts.jpg" alt="Woman pouring cappuccino with decorative heart pattern">
-                        <p>
-                            Looking to meet up with other climbers? Need help with a problem? Love great coffee? Our groups meet every week to chat and catch up over a hot drink before heading to the walls. Group climbing is a great way to learn from others and colaborate on beta, building your skills and teamwork while you strive to climb harder problems. Coffee and Climb is open to all, regardless of skill and experience. So whether you're looking for a belay partner or an extra set of eyes on your latest tricky climbing problem, come along and join in. <br><br>
-                            Every wednesday and saturday 10:00 - 12:30                         
-                        </p>
-                    </article>
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <article class="card-body card-dark-background card-shadow">
-                        <h3 class="uppercase">Climbing Taster Sessions</h3>
-                        <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978335/Volume/taster-small_tqbqpi.jpg" alt="Crop anonymous trainer teaching female alpinist tying safety rope near climbing wall before practice">
-                        <p>
-                            New to climbing? Our taster sessions are just what you need to get started! You’ll be paired up with one of our expert instructors who will teach you everything you need to have fun and stay safe on the walls. From hold types to heel hooks and more; dive into your new hobby with knowledge and confidence. This sessions also includes climbing shoe and harness hire so all you need to bring along is yourself and a desire to learn.                        
-                        </p>
-                    </article>
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <article class="card-body card-dark-background card-shadow">
-                        <h3 class="uppercase">Technique Masterclass</h3>
-                        <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978329/Volume/masterclass-small_rgyybh.jpg" alt="Woman in Black Tank Top and White Shorts Holding Red and Yellow Hat">
-                        <p>
-                            No matter your skill level or how long you’ve been climbing there’s always more to learn. Our teams incredible instructors and route setters will be putting on a masterclass to help you improove your climbing technique and top those difficult problems like a pro! <br><br>
-                            Next Class: 25/07/2021<br>
-                            at 18:00                       
-                        </p>  
-                    </article>
-                </div>
+            <div role="presentation" class="col-sm-12 col-md-6 col-xl-4">
+                <article class="card-body card-dark-background card-shadow">
+                    <h3 class="uppercase">Coffee and Climb</h3>
+                    <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978323/Volume/coffee-small_ijzkts.jpg" alt="Woman pouring cappuccino with decorative heart pattern">
+                    <p>
+                        Looking to meet up with other climbers? Need help with a problem? Love great coffee? Our groups meet every week to chat and catch up over a hot drink before heading to the walls. Group climbing is a great way to learn from others and colaborate on beta, building your skills and teamwork while you strive to climb harder problems. Coffee and Climb is open to all, regardless of skill and experience. So whether you're looking for a belay partner or an extra set of eyes on your latest tricky climbing problem, come along and join in. <br><br>
+                        Every wednesday and saturday 10:00 - 12:30                         
+                    </p>
+                </article>
+            </div>
+            <div role="presentation" class="col-sm-12 col-md-6 col-xl-4">
+                <article class="card-body card-dark-background card-shadow">
+                    <h3 class="uppercase">Climbing Taster Sessions</h3>
+                    <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978335/Volume/taster-small_tqbqpi.jpg" alt="Crop anonymous trainer teaching female alpinist tying safety rope near climbing wall before practice">
+                    <p>
+                        New to climbing? Our taster sessions are just what you need to get started! You’ll be paired up with one of our expert instructors who will teach you everything you need to have fun and stay safe on the walls. From hold types to heel hooks and more; dive into your new hobby with knowledge and confidence. This sessions also includes climbing shoe and harness hire so all you need to bring along is yourself and a desire to learn.                        
+                    </p>
+                </article>
+            </div>
+            <div role="presentation" class="col-sm-12 col-md-6 col-xl-4">
+                <article class="card-body card-dark-background card-shadow">
+                    <h3 class="uppercase">Technique Masterclass</h3>
+                    <img src="https://res.cloudinary.com/chronologic12/image/upload/v1624978329/Volume/masterclass-small_rgyybh.jpg" alt="Woman in Black Tank Top and White Shorts Holding Red and Yellow Hat">
+                    <p>
+                        No matter your skill level or how long you’ve been climbing there’s always more to learn. Our teams incredible instructors and route setters will be putting on a masterclass to help you improove your climbing technique and top those difficult problems like a pro! <br><br>
+                        Next Class: 25/07/2021<br>
+                        at 18:00                       
+                    </p>  
+                </article>
             </div>
         </section>
     </main>
     <!-- Footer -->
     <footer>
-        <div class="container-fluid footer background-dark-grey">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
-                    <h5>Opening Times</h5>
-                    <table>
-                        <tr>
-                            <td>Monday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Tuesday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Wednesday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>9:00-19:00</td>
-                        </tr>
-                        <tr>
-                            <td>Sunday</td>
-                            <td>9:00-19:00</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
-                    <h5 class="uppercase">Volume Climbing</h5>
-                        123 Example Street,<br>
-                        Birmingham,<br>
-                        B1 2XY
-                        <br><br>
-                        Phone: 01234 567 890<br>
-                        Email: example@example.com
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <ul class="uppercase">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="activities.html">Activities</a></li>
-                        <li><a href="prices.html">Prices</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="booking.html">Booking</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
-                    <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
-                    <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
-                </div>
-            </div>
-        </div>
+        <section class="container-fluid footer background-dark-grey row">
+            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
+                <p role="heading">Opening Times</p>
+                <table>
+                    <tr>
+                        <td>Monday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9:00-19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>9:00-19:00</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <p role="heading" class="uppercase">Volume Climbing</p>
+                    123 Example Street,<br>
+                    Birmingham,<br>
+                    B1 2XY
+                    <br><br>
+                    Phone: 01234 567 890<br>
+                    Email: example@example.com
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <ul class="uppercase">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                </ul>
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
+                <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
+                <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
+            </article>
+        </section>
     </footer> 
     <!-- Bootstrap javascript script - https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

@@ -68,6 +68,7 @@ main h2 {
 .home-news {
     background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_crop,h_1662,w_854,x_1700,y_637/v1624975865/Volume/home-news-large_baegri.jpg");
     padding: 1rem;
+    padding-top: 4rem;
     position: relative;
     top: 4rem;
     background-size: cover;
@@ -75,15 +76,12 @@ main h2 {
     text-align: center;
 }
 
-.home-news div div {
-    padding-bottom: 2rem;
+.home-news div {
+    padding-bottom: 7rem;
+    /* padding-bottom: 2rem; */
     position: relative;
     top: 4rem;
     margin: 0 auto;
-}
-
-.home-news div {
-    padding-bottom: 7rem;
 }
 
 .home-news img {

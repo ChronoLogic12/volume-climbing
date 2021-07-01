@@ -28,12 +28,12 @@
     justify-content: center !important;
 }
 
-.contact-container div:nth-child(odd){
+.contact-container span:nth-child(odd){
     text-align: right;
     padding: 1rem;
 }
 
-.contact-container div:nth-child(even) {
+.contact-container span:nth-child(even) {
     text-align: left;
     padding: 1rem;
 }
@@ -46,14 +46,6 @@
 hr {
     margin: 0;
 }
-
-/* -------------------------------Contact hover effects */
-
-.social-icons:hover {
-    color: var(--white);
-    transition: all 0.5s ease-in-out;
-}
-
 
 /* -------------------------------Map */
 

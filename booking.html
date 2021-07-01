@@ -9,8 +9,8 @@
     <!-- Style sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/booking.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/booking.css" rel="stylesheet" type="text/css">
     <title>Volume: Climbing Centre</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg background-dark-grey container-fluid">
             <a href="index.html"><img src="assets/images/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
-            <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
+            <article class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
                 <ul class="nav-page-links uppercase navbar-nav" >
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-link-divider"></li>
@@ -30,7 +30,7 @@
                     <li class="nav-link-divider"></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-            </div>
+            </article>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list nav-menu-icon"></i>
             </button>
@@ -41,108 +41,104 @@
         <!-- Booking form -->
         <section class="container-fluid booking row">
             <img src="assets/images/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="volume-logo">               
-            <div class="col-sm-12">
-                <div class="card-body card-shadow card-dark-background">
-                    <h2>Online Booking</h2>
-                    <hr>
-                    <form action="#" method="POST" class="row">
-                        <div class="col-md-12 col-lg-8">
-                            <label for="name" class="form-label form-text">Name: </label>
-                            <input type="text" class="form-control" id="name" placeholder="Name *" required>
-                            <label for="email1" class="form-label form-text">Email Address: </label>
-                            <input type="email" class="form-control" id="email1" placeholder="Email *" required>
-                            <label for="phone" class="form-label form-text">Phone: </label>
-                            <input type="tel" class="form-control" id="phone" placeholder="Phone *" required>
-                            <label for="activity" class="form-label form-text">Activity Type: </label>
-                            <input type="text" class="form-control" id="activity" placeholder="Select an activity *" list="activities" required>
-                            <datalist id="activities">
-                                <option value="Bouldering"></option>
-                                <option value="Climbing"></option>
-                                <option value="Intro to Climbing"></option>
-                                <option value="Instructor Hire"></option>
-                            </datalist>
-                        </div>
-                        <div class="col-md-12 col-lg-4">
-                            <label for="time" class="form-label form-text">Time: *</label>
-                            <input type="time" name="time" id="time" class="form-control" min="07:00" max="22:00" value="07:00" step="1800" required>
-                            <label for="date" class="form-label form-text">Date: *</label>
-                            <input type="date" name="date" id="date" class="form-control" value="2021-01-01" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-text">
-                                * Required field
-                            </div>
-                            <button type="submit" aria-label="submit" class="button form-button background-light-blue uppercase">Send</button>
-                        </div>                        
-                    </form>
-                </div>
-            </div>
+            <article class="col-sm-12 card-body card-shadow card-dark-background">
+                <h2>Online Booking</h2>
+                <hr>
+                <form action="mailto:example@example.com" class="row">
+                    <fieldset class="col-md-12 col-lg-8">
+                        <label for="name" class="form-label form-text">Name: </label>
+                        <input type="text" class="form-control" id="name" placeholder="Name *" required>
+                        <label for="email1" class="form-label form-text">Email Address: </label>
+                        <input type="email" class="form-control" id="email1" placeholder="Email *" required>
+                        <label for="phone" class="form-label form-text">Phone: </label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone *" required>
+                        <label for="activity" class="form-label form-text">Activity Type: </label>
+                        <input type="text" class="form-control" id="activity" placeholder="Select an activity *" list="activities" required>
+                        <datalist id="activities">
+                            <option value="Bouldering"></option>
+                            <option value="Climbing"></option>
+                            <option value="Intro to Climbing"></option>
+                            <option value="Instructor Hire"></option>
+                        </datalist>
+                    </fieldset>
+                    <fieldset class="col-md-12 col-lg-4">
+                        <label for="time" class="form-label form-text">Time: *</label>
+                        <input type="time" name="time" id="time" class="form-control" min="07:00" max="22:00" value="07:00" step="1800" required>
+                        <label for="date" class="form-label form-text">Date: *</label>
+                        <input type="date" name="date" id="date" class="form-control" value="2021-01-01" required>
+                    </fieldset>
+                    <div role="presentation" class="col-sm-12">
+                        <p class="form-text">
+                            * Required field
+                        </p>
+                        <button type="submit" aria-label="submit" class="button form-button background-light-blue uppercase">Send</button>
+                    </div>                        
+                </form>
+            </article>
         </section>
     </main>
     <!-- Footer -->
     <footer>
-        <div class="container-fluid footer background-dark-grey">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
-                    <h5>Opening Times</h5>
-                    <table>
-                        <tr>
-                            <td>Monday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Tuesday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Wednesday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>9:00-19:00</td>
-                        </tr>
-                        <tr>
-                            <td>Sunday</td>
-                            <td>9:00-19:00</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
-                    <h5 class="uppercase">Volume Climbing</h5>
-                        123 Example Street,<br>
-                        Birmingham,<br>
-                        B1 2XY
-                        <br><br>
-                        Phone: 01234 567 890<br>
-                        Email: example@example.com
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <ul class="uppercase">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="activities.html">Activities</a></li>
-                        <li><a href="prices.html">Prices</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="booking.html">Booking</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
-                    <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
-                    <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
-                </div>
-            </div>
-        </div>
-    </footer> 
+        <section class="container-fluid footer background-dark-grey row">
+            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
+                <p role="heading">Opening Times</p>
+                <table>
+                    <tr>
+                        <td>Monday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9:00-19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>9:00-19:00</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
+                <p role="heading" class="uppercase">Volume Climbing</p>
+                    123 Example Street,<br>
+                    Birmingham,<br>
+                    B1 2XY
+                    <br><br>
+                    Phone: 01234 567 890<br>
+                    Email: example@example.com
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <ul class="uppercase">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                </ul>
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
+                <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
+                <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
+            </article>
+        </section>
+    </footer>  
     <!-- Bootstrap javascript script - https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>

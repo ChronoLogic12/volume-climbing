@@ -5,7 +5,7 @@
     text-align: center;
     position: relative;
     top: 4rem;
-    padding: 4rem 0 1rem 0;
+    padding: 6rem 0 1rem 0;
     margin-bottom: 4rem;
     min-height: 80vh;
 } 
@@ -44,10 +44,6 @@
     padding-left: 1rem;
 }
 
-.card-body > div {
-    margin-right: 2rem;
-}
-
 .prices-equipment td {
     padding-left: 1rem;;
 }
@@ -65,8 +61,11 @@
         padding: 0 0.5rem;
     }
 
-    .card-body > div {
-        margin: 0;
+    .prices p {
+        padding-top: 1rem;
+    }
+    .prices p[role="heading"] {
+        font-size: 1.3rem;
     }
 } 
 
@@ -89,13 +88,13 @@
 
 @media only screen and (min-width: 1870px) {
     .prices {
-        padding: 2rem 15vw;
+        padding: 4rem 15vw;
     } 
 } 
 
 @media only screen and (min-width: 1400px) {
-    .prices div:nth-child(1) {
-        margin-top: 3rem;
+    .prices article:nth-child(1) {
+        margin-top: 2rem;
     }
 }
 

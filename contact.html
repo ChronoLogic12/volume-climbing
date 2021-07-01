@@ -9,8 +9,8 @@
     <!-- Style sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/contact.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/contact.css" rel="stylesheet" type="text/css">
     <title>Volume: Climbing Centre</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg background-dark-grey container-fluid">
             <a href="index.html"><img src="assets/images/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
-            <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
+            <article class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
                 <ul class="nav-page-links uppercase navbar-nav" >
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-link-divider"></li>
@@ -30,7 +30,7 @@
                     <li class="nav-link-divider"></li>
                     <li class="nav-item"><a class="nav-link underline" href="contact.html">Contact</a></li>
                 </ul>
-            </div>
+            </article>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list nav-menu-icon"></i>
             </button>
@@ -41,14 +41,14 @@
         <!-- Contact form -->
         <section class="container-fluid contact row">
             <img src="assets/images/volume-logo-main.svg" alt="Logo that looks like the letter V made from a climbing volume. Also includes text, Volume climbing centre" class="volume-logo">               
-                <div class="col-lg-6 col-md-12">
-                    <div class="card-body card-shadow card-dark-background contact-card">
-                        <h3 class="uppercase">Get in Touch</h3>
+                <section class="col-lg-6 col-md-12">
+                    <article class="card-body card-shadow card-dark-background contact-card">
+                        <p role="heading" class="uppercase">Get in Touch</h3>
                         <p>
                             If you have any questions or feedback for us please get in touch using the form bellow.
                         </p>
                         <hr>
-                        <form action="#" method="POST">
+                        <form action="mailto:example@example.com">
                             <label for="name" class="form-label form-text">Name: </label>
                             <input type="text" class="form-control" id="name" placeholder="Name *" required>
                             <label for="email1" class="form-label form-text">Email Address: </label>
@@ -57,36 +57,36 @@
                             <input type="tel" class="form-control" id="phone" placeholder="Phone *" required>
                             <label for="message" class="form-label form-text">Your Message: </label>
                             <textarea name="message" id="message" class="form-control" placeholder="Your Message *" rows="3" required></textarea>
-                            <div class="form-text">
+                            <p class="form-text">
                                 * Required field
-                            </div>
+                            </p>
                             <button type="submit" aria-label="send" class="button form-button background-light-blue uppercase">Send</button>
                         </form>
-                    </div>
-                </div>
+                    </article>
+                </section>
                 <!-- Aditional contact information -->
-                <div class="col-lg-6 col-md-12">
-                    <div class="card-body card-shadow card-dark-background contact-card">
+                <section class="col-lg-6 col-md-12">
+                    <article class="card-body card-shadow card-dark-background contact-card">
                         <p>
                             Alternatively you can contact us via phone, email or through our social media.
                         </p>
                         <hr>
-                        <div class="contact-container">
-                            <div>Phone: </div>
-                            <div>01234 567 890</div>
-                            <div>Email: </div>
-                            <div>example@example.com</div>
-                            <div>Address: </div>
-                            <div>Volume Climbing, 123 Example street, 
-                                Birmingham, B1 2XX</div>
+                        <div role="presentation" class="contact-container">
+                            <span>Phone: </span>
+                            <span>01234 567 890</span>
+                            <span>Email: </span>
+                            <span>example@example.com</span>
+                            <span>Address: </span>
+                            <span>Volume Climbing, 123 Example street, 
+                                Birmingham, B1 2XX</span>
                         </div>
-                        <div class="contact-socials">
+                        <div role="presentation" class="contact-socials">
                             <a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a>
                             <a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a>
                             <a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a>
                         </div>
-                    </div>
-                </div>
+                    </article>
+                </section>
         </section>
         <!-- Google map -->
         <!-- Code for Google Map generated and copied from "https://www.google.com/maps/place/Birmingham/@52.4775215,-1.9336709,12z/data=!3m1!4b1!4m5!3m4!1s0x4870942d1b417173:0xca81fef0aeee7998!8m2!3d52.486243!4d-1.890401" -->
@@ -95,68 +95,66 @@
     </main>
     <!-- Footer -->
     <footer>
-        <div class="container-fluid footer background-dark-grey">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
-                    <h5>Opening Times</h5>
-                    <table>
-                        <tr>
-                            <td>Monday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Tuesday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Wednesday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>7:00-22:00</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>9:00-19:00</td>
-                        </tr>
-                        <tr>
-                            <td>Sunday</td>
-                            <td>9:00-19:00</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
-                    <h5 class="uppercase">Volume Climbing</h5>
-                        123 Example Street,<br>
-                        Birmingham,<br>
-                        B1 2XY
-                        <br><br>
-                        Phone: 01234 567 890<br>
-                        Email: example@example.com
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <ul class="uppercase">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="activities.html">Activities</a></li>
-                        <li><a href="prices.html">Prices</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="booking.html">Booking</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
-                    <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
-                    <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
-                    <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
-                </div>
-            </div>
-        </div>
-    </footer> 
+        <section class="container-fluid footer background-dark-grey row">
+            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
+                <p role="heading">Opening Times</p>
+                <table>
+                    <tr>
+                        <td>Monday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>7:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9:00-19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>9:00-19:00</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
+                <p role="heading" class="uppercase">Volume Climbing</p>
+                    123 Example Street,<br>
+                    Birmingham,<br>
+                    B1 2XY
+                    <br><br>
+                    Phone: 01234 567 890<br>
+                    Email: example@example.com
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <ul class="uppercase">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                </ul>
+            </article>
+            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
+                <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
+                <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
+            </article>
+        </section>
+    </footer>  
     <!-- Bootstrap javascript script - https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
