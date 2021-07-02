@@ -143,9 +143,14 @@ main h2 {
         height: 15vh;
     }
 
+    .home-intro .card-body {
+        line-height: 1.1rem;
+    }
+
     .home-intro .card-body .button {
         font-size: 1rem;
         padding: 0.2rem;
+        margin-top: 0.4rem;
     }
 }
 

@@ -50,6 +50,17 @@ Volume has decided to build this website in order to encourage greater traffic t
 ### Structure
 The website is made up of six pages in total, separated by functionality. This was done with the aim to make any specific information a user might be looking for easily accessable and to keep the amount of info per page to a minimum to avaid overwhelming users.  
 
+## Wireframes
+
+Each wireframe contains designs for desktop, tablet and mobile devices.
+
+ * [Home](/workspace/volume-climbing/assets/images/readme-images/Wireframes/Home.png)
+ * [Avtivities](/workspace/volume-climbing/assets/images/readme-images/Wireframes/Activities.png)
+ * [Prices](/workspace/volume-climbing/assets/images/readme-images/Wireframes/Prices.png)
+ * [Gallery](/workspace/volume-climbing/assets/images/readme-images/Wireframes/Gallery.png)
+ * [Contact](/workspace/volume-climbing/assets/images/readme-images/Wireframes/Contact.png)
+ * [Booking](/workspace/volume-climbing/assets/images/readme-images/Wireframes/Booking.png)
+
 ## Features 
 
 ### Existing Features 
