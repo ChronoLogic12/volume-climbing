@@ -7,26 +7,10 @@
     top: 4rem;
 }
 
-.gallery i {
-    color: var(--blue);
-    margin: auto auto;
-    position: absolute;
-    top: 2rem;
-    font-size: 6rem;
-    transform: translateX(-50%);
-    text-shadow: 2px 2px 5px #493249;
-}
-
-.gallery i:hover {
-    color: var(--white);
-    text-shadow: 3px 3px 6px #493249;
-    transition: all 0.5s ease-in-out;
-}
-
 .images {
     padding: 2rem;
     margin-bottom: 4rem;
-    padding-top: 10rem;
+    padding-top: 2rem;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
