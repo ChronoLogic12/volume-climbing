@@ -73,7 +73,7 @@ a, a:hover {
 
 body {
     font-family: Lato, Sans-Serif;
-    background: linear-gradient(var(--pale-blue), var(--white));
+    background-color: var(--pale-blue);
     word-spacing: 3px;
 }
 
