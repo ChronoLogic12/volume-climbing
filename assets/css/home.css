@@ -1,7 +1,7 @@
 /* -------------------------------Header */
 
 .home-intro {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_100,w_900/v1624975862/Volume/home-header-large_wct6dz.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/q_auto,c_scale,w_768/v1624975862/Volume/home-header-large_wct6dz.jpg");
     background-size: cover;
     background-position: 70% center;
     height: calc(100vh - 4em);
@@ -66,7 +66,7 @@ main h2 {
 /* -------------------------------News */
 
 .home-news {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_crop,h_1662,w_854,x_1700,y_637/v1624975865/Volume/home-news-large_baegri.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/q_auto/c_crop,h_1662,w_854,x_1700,y_637/v1624975865/Volume/home-news-large_baegri.jpg");
     padding: 1rem;
     padding-top: 4rem;
     position: relative;

@@ -1,7 +1,7 @@
 /* -------------------------------Booking */
 
 .booking {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_90,w_1000/v1624981722/Volume/booking-large_lgacrs.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_auto,w_800/v1624981722/Volume/booking-large_lgacrs.jpg");
     background-size: cover;
     background-position: 70% center;
     text-align: center;
@@ -23,6 +23,12 @@
     }
 }  
 
+@media only screen and (max-width: 992px) {
+    .booking .card-body {
+        transform: none;
+    }
+}
+
 @media only screen and (min-width: 1800px) {
     .booking .card-body {
         padding: 1rem 5rem;
@@ -33,7 +39,7 @@
 
 @media only screen and (min-width: 720px) {
     .booking {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_90,w_2479/v1624981722/Volume/booking-large_lgacrs.jpg");
+        background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_90,w_2479/v1624981722/Volume/booking-large_lgacrs.jpg");
         min-height: 80vh;
     }
 }

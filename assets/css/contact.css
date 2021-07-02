@@ -1,7 +1,7 @@
 /* -------------------------------Contact */
 
 .contact {
-    background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,w_901/v1624981405/Volume/contact-large_orv4ov.jpg");
+    background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,w_901/v1624981405/Volume/contact-large_orv4ov.jpg");
     background-size: cover;
     background-position: 70% 50%;
     text-align: center;
@@ -86,7 +86,7 @@ iframe {
 
 @media only screen and (min-width: 720px) {
     .contact {
-        background-image: linear-gradient(rgba(42,42,49,0.3), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,w_2049/v1624981405/Volume/contact-large_orv4ov.jpg");
+        background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,w_2049/v1624981405/Volume/contact-large_orv4ov.jpg");
     }
 }
 
