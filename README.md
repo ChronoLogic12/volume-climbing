@@ -205,11 +205,3 @@ The brand logo was created by me, using [Adobe Photoshop](https://www.adobe.com/
 * [w3schools](https://www.w3schools.com/) - general knowledge.
 * [MND Web Docs](https://developer.mozilla.org/en-US/) - general knowledge.
 * [Stack Overflow](https://stackoverflow.com/) - debugging.
-
-
-
-###Bugs
- 
-svg files for the brand logo were not displaying. fixed this by using embed tag instead of img. - credit to nisekgao on StackOverflow for the solution - https://stackoverflow.com/questions/41195669/images-in-svg-image-tags-not-showing-up-in-chrome-but-displays-locally
- 
-had trouble centreing the menu icon using position: absolute and left: 50% in a dynamic manner. resolved using "transform:translateX(-50%);" to offset the margin by half the width of the icon. 
