@@ -1,0 +1,35 @@
+/* -------------------------------Error 404 - page not found */
+
+.not-found {
+    background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.6)), url("https://res.cloudinary.com/chronologic12/image/upload/q_auto,c_scale,w_768/v1624975862/Volume/home-header-large_wct6dz.jpg");
+    background-size: cover;
+    background-position: 70% center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.not-found .card-body {
+    width: fit-content;
+    height: fit-content;
+    transform: none;
+}
+
+.not-found h1 {
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.not-found .button {
+    padding: 0.5rem;
+}
+/* -------------------------------Media queries (managing bandwidth for mobile devices)*/
+
+@media only screen and (min-width: 768px) {
+    .not-found {
+        background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.6)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,q_70,w_1920/v1624975862/Volume/home-header-large_wct6dz.jpg");
+    }
+}

@@ -169,6 +169,11 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
     * Save user details for future bookings. 
  
 ## Testing 
+
+To test site performance I used Google Chromes Lighthouse tools. I tested all pages for both Deaktop and mobile performance and all scored above 90.
+<p align="center">
+    <img src="assets/images/readme-images/volume-lighthouse-performance-rep.jpg" width="600px">
+</p>
  
 ### Code validation
  
