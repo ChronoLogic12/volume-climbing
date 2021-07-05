@@ -23,14 +23,14 @@ This website is designed to inform users about the centre and it's available fac
  
 ### Project Goals
  
-Volume has decided to build this website in order to encourage greater traffic to their new Birmingham centre. The creation of a website will help facilitate this in a number of ways including:
+Volume has decided to build this website in order to encourage greater traffic to their new Birmingham centre. This website will help facilitate this in a number of ways including:
 * Providing an easy way for existing members to find and book times/dates for their climbing sessions.
 * Building Volumes overall sense of brand identity. 
 * Promoting a greater online presence and generating greater ‘natural traffic’. 
 * Encouraging repeat custom by providing a sense of community centered on their service.
 * Promoting climbing as a fun and social sport to potential new climbers.
 * Making it easy to find details on all services they can provide to both prospective and existing customers.
-* Providing a way to easily locate the centre.
+* Providing a way to easily locate and contact the centre.
  
 ### User Stories
  
@@ -52,7 +52,7 @@ Volume has decided to build this website in order to encourage greater traffic t
 * I want to check if there are any changes to procedure such as opening times or pricing.  
  
 ### Structure
-The website is made up of six pages in total, separated by functionality. This was done with the aim to make any specific information a user might be looking for easily accessible and to keep the amount of info per page to a minimum to avoid overwhelming users.  
+The website is made up of six pages in total, separated by functionality. This was done with the aim to make any specific information a user might be looking for easily accessible within a small number of clicks and to keep the amount of info per page to a minimum to avoid overwhelming users.
  
 ### Wireframes
  
@@ -65,14 +65,17 @@ Each wireframe contains designs for desktop, tablet and mobile devices.
  * [Contact](assets/images/readme-images/Wireframes/Contact.png)
  * [Booking](assets/images/readme-images/Wireframes/Booking.png)
  
+ ### Responsive design
+ 
+ This site was designed using a 12 column grid layout and displays content responsive based on the users screen size. The site also makes use of smaller resolution images on smaller screens to reduce required bandwidth on mobile devices. 
+ 
 ### Colour Scheme
  
-The colour scheme I chose for this site is simple but bold. The main, three colour scheme (pictured left to right below) consists of an off black and white colours and a vibrant blue to act as an action colour. The final two colours are pale shades, colour picked from the hero image used on the home page. These colours are used in a linear gradient for the background of the informational pages. This palette gives high contrast without being too aggressive and the limited colour palette helps create a uniform look across all pages.
+The colour scheme I chose for this site is simple but bold. The main, three colour scheme (pictured left to right below) consists of an off black and white colours and a vibrant blue to act as an action colour. The final two colours are pale shades, colour picked from the hero image used on the home page. These colours are used in a linear gradient for the background of the informational pages. This palette gives high contrast without being too aggressive and the limited colour palette helps create a uniform look across all pages. Background images were also dimmed using an opaque gradient of the same off black colour to maintain contrast between background and foreground elements.
  
 <p align="center">
     <img src="assets/images/readme-images/colours.PNG">
 </p>
- 
  
 ## Features 
  
@@ -92,16 +95,16 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
     <img src="assets/images/readme-images/navbar/navbar-mobile-open.PNG" width="300px">
 </p>
  
-* For ease of access, the Volume logo (home button) and the link to the booking page do not collapse into the hamburger icon. 
+* For ease of access, the Volume logo (home button) and the link to the booking page do not collapse into the hamburger icon and are therefor always within easy reach of the user. 
  
  * Footer
     * The footer section is consistent across all pages and contains centre opening hours, basic company contact information, site navigation and social media links. This element is valuable to the user as it provides a consistent, site-wide way of accessing the most common information they may be looking for. It also promotes further browsing through use of site navigation links and externally opening social media links. 
 <p align="center">
     <img src="assets/images/readme-images/footer/footer-desktop.PNG">
 </p>
-
+ 
  * Error 404 page
-    * If the user requests a page that does not excist the will instead come to the 404.html page. Here, they will be prompted to return to the sites home page and able to do so without using browser controlls.  
+    * If the user requests a page that does not exist they will instead come to the 404.html page. Here, they will be prompted to return to the sites home page.
 <p align="center">
     <img src="assets/images/readme-images/404/404-page-not-found.PNG" width="600px">
 </p>
@@ -109,7 +112,7 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
 #### Home page
  
  * Intro/Hero image
-    * This section contains a hero image, displaying a person climbing. This image helps quickly convey the sites topic to a new user and helps promote it in a fun and exciting light. Also prominently displayed is the brand logo helping to build brand identity as well short info cards which can help direct users to more detailed information depending on their needs. 
+    * This section contains a hero image, displaying a person climbing. This image helps quickly convey the site's topic to a new user and helps promote it in a fun and exciting light. Also prominently displayed is the brand logo helping to build brand identity as well short info cards which can help direct users to more detailed information depending on their needs. 
 <p align="center">
     <img src="assets/images/readme-images/home-intro/home-hero.PNG" width="600px">
 </p>
@@ -121,7 +124,7 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
 </p>
  
  * News 
-    * This section contains informational cards giving details for current or upcoming events and activities further promoting the centre's socially driven nature.
+    * This section contains informational cards giving details for current or upcoming events and activities. This further promotes the centre's socially driven nature and is a simple way for returning users to check in on updates and events.
 <p align="center">
     <img src="assets/images/readme-images/news/home-news.PNG" width="600px">
 </p>
@@ -137,7 +140,7 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
 #### Prices page
  
  * Pricing tables
-    * The prices page contains cost for all offered services as well as for registration, equipment hire and membership. This is key information for any user considering booking a session and having it easily available and clearly displayed removes potential barriers that might hinder a user from making a booking.  
+    * The prices page contains costs for all offered services as well as for registration, equipment hire and membership. This is key information for any user considering booking a session and having it easily available and clearly displayed removes potential barriers that might hinder a user from making a booking.  
 <p align="center">
     <img src="assets/images/readme-images/prices/prices.PNG" width="600px">
 </p>
@@ -145,7 +148,7 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
 #### Gallery page
  
  * Image gallery
-    * The gallery page contains a gallery of images from the centre and it's climbers as well as a prominent link to 'Volumes' instagram account. This gallery helps to further promote the brand's social disposition, showing the fun and interactive nature of the centre and sport. This will help encourage bookings from both new and returning customers. 
+    * The gallery page contains images from the centre and it's climbers. This gallery helps to further promote the brand's social disposition, showing the fun and interactive nature of the centre and sport. This will help encourage bookings from both new and returning customers. 
 <p align="center">
     <img src="assets/images/readme-images/gallery/gallery.PNG" width="600px">
 </p>
@@ -175,45 +178,55 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
     * Save user details for future bookings. 
  
 ## Testing 
-
-To test site performance I used Google Chromes Lighthouse tools. I tested all pages for both Deaktop and mobile performance and all scored above 90.
+ 
+To test site performance I used Google Chrome's Lighthouse tools. I tested all pages for both desktop and mobile performance and all scored above 90.
 <p align="center">
-    <img src="assets/images/readme-images/volume-lighthouse-performance-rep.jpg" width="600px">
+    <img src="assets/images/readme-images/testing/volume-lighthouse-performance-rep.jpg" width="600px">
 </p>
  
 ### Code validation
  
-No errors were returned when pages were run through [W3C Validator](https://validator.w3.org/nu/)
+All custom CSS was tested using [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and returned no errors.
+<p align="center">
+    <img src="assets/images/readme-images/testing/css-validation.PNG" width="600px">
+</p>
+All HTML was tested using [Nu Html Checker](https://validator.w3.org/nu) and returned no errors or warnings.
+<p align="center">
+    <img src="assets/images/readme-images/testing/html-validation.PNG" width="600px">
+</p>
  
 ## Deployment - GitHub Pages
-
-The site was deployed through GitHub pages using the following steps.
+ 
+The site was deployed through GitHub Pages using the following steps.
 * Navigate to the GitHub repository and select the Settings tab
 * Select the Pages section
 * Use the dropdown menu in the source section to select the Master Branch. Click save.
-* Once the branch has been selected the page will update displaying: Your site is published at (https://chronologic12.github.io/volume-climbing/)
-
+* Once the branch has been selected the page will update displaying: "Your site is published at (https://chronologic12.github.io/volume-climbing/)"
+ 
 ## Credits 
 ### Content 
-* [Bootstrap](https://getbootstrap.com/) was used to create the colapsing navigation bar and responsive grid layouts 
+* [Bootstrap](https://getbootstrap.com/) was used to create the collapsing navigation bar and responsive grid layouts 
 * [Bootstrap Icons](https://icons.getbootstrap.com/) for social media link icons
 * [Fancybox](https://fancyapps.com/docs/ui/fancybox/) was used to create interactive images and the image gallery 
 * [Google maps](https://www.google.com/maps/) The code for the map element of the contact page was created by google maps.
 * [Google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) generated the css for using fonts locally 
-* [Github docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) This guid was used to create teh error 404 page.
-
-
+* [Github docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) This guide was used to create the error 404 page.
+ 
+ 
 ### Media
-
-All images were sourced from [Pexels](https://www.pexels.com/) and can be found in [this collection](https://www.pexels.com/collections/volume-rmvjg5w/).
-
-[Cloudinary](https://cloudinary.com/console/c-087b7b36d5737750ed37ab5fb60479/getting-started) CDN was use to store and deliver images to the site in multiple resolutions and improve performance. 
-
-The brand logo was created by me, using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html?mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjw8vqGBhC_ARIsADMSd1ABTiJnO8LkQCgsmMmARI5EC_QqrkMEL3OGW7HCihtdXmiVUZtmQAAaAqYlEALw_wcB:G:s&s_kwcid=AL!3085!3!520876516720!e!!g!!adobe%20photoshop!1422700211!58647953511&gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1ABTiJnO8LkQCgsmMmARI5EC_QqrkMEL3OGW7HCihtdXmiVUZtmQAAaAqYlEALw_wcB) 
+ 
+ * All images were sourced from [Pexels](https://www.pexels.com/) and can be found in [this collection](https://www.pexels.com/collections/volume-rmvjg5w/).
+ 
+ * [Cloudinary](https://cloudinary.com/console/c-087b7b36d5737750ed37ab5fb60479/getting-started) CDN was use to store and deliver images to the site in multiple resolutions and improve performance. 
+ 
+ * The brand logo was created by me, using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html?mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjw8vqGBhC_ARIsADMSd1ABTiJnO8LkQCgsmMmARI5EC_QqrkMEL3OGW7HCihtdXmiVUZtmQAAaAqYlEALw_wcB:G:s&s_kwcid=AL!3085!3!520876516720!e!!g!!adobe%20photoshop!1422700211!58647953511&gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1ABTiJnO8LkQCgsmMmARI5EC_QqrkMEL3OGW7HCihtdXmiVUZtmQAAaAqYlEALw_wcB) 
+ 
+ * All text displayed on this site was written by me.
  
 ### Help and info
-
+ 
 * Code Institute learning material - general knowledge.
+* [Codecademy](https://www.codecademy.com/learn) - general knowledge.
 * [w3schools](https://www.w3schools.com/) - general knowledge.
 * [MND Web Docs](https://developer.mozilla.org/en-US/) - general knowledge.
-* [Stack Overflow](https://stackoverflow.com/) - debugging.
+* [Stack Overflow](https://stackoverflow.com/) - debugging. 
