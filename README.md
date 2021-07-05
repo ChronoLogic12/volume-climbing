@@ -85,7 +85,7 @@ For this site I chose to use the font **Lato**. This font is easy to read and wo
 
 ### Styling
 
-Styling of elements is consistent across all sections and pages lending the overall design and branding a strong sense of cohesion. The coloured drop shadows on informational cards helps to draw the user's eye down and to the right when reading encouraging them to browse further.  
+Styling of elements is consistent across all sections and pages lending the overall design and branding a strong sense of cohesion. The coloured drop shadows on informational cards helps to draw the user's eye down and to the right when reading, encouraging them to browse further.  
  
 ## Features 
  
@@ -105,7 +105,7 @@ Styling of elements is consistent across all sections and pages lending the over
     <img src="assets/images/readme-images/navbar/navbar-mobile-open.PNG" width="300px">
 </p>
  
-* For ease of access, the Volume logo (home button) and the link to the booking page do not collapse into the hamburger icon and are therefor always within easy reach of the user. 
+* For ease of access, the Volume logo (home button) and the link to the booking page do not collapse into the hamburger icon and are therefore always within easy reach of the user. 
  
  * Footer
     * The footer section is consistent across all pages and contains centre opening hours, basic company contact information, site navigation and social media links. This element is valuable to the user as it provides a consistent, site-wide way of accessing the most common information they may be looking for. It also promotes further browsing through use of site navigation links and externally opening social media links. 
