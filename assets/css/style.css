@@ -138,9 +138,9 @@ h5 {
 }
 
 .hidden {
-    position: absolute;
-    top: -5000px;
-    left: -5000px;
+    position: absolute !important;
+    top: -5000px !important;
+    left: -5000px !important;
 }
 
 /* -------------------------------Button hover effects */
