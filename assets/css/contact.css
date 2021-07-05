@@ -66,9 +66,6 @@ iframe {
 }
 
 @media only screen and (max-width: 992px) {
-
-    /* ---------------------------Contact */
-
     .contact-card {
         margin-bottom: 2rem;
     }
@@ -82,14 +79,6 @@ iframe {
     }
 }
 
-/* -------------------------------Media queries (managing bandwidth for mobile devices)*/
-
-@media only screen and (min-width: 720px) {
-    .contact {
-        background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,w_2049/v1624981405/Volume/contact-large_orv4ov.jpg");
-    }
-}
-
 @media only screen and (max-width: 460px) {
     .contact-container {
         display: grid !important;
@@ -99,5 +88,13 @@ iframe {
 
     .contact-container div {
         text-align: center !important;
+    }
+}
+
+/* -------------------------------Media queries (managing bandwidth for mobile devices)*/
+
+@media only screen and (min-width: 720px) {
+    .contact {
+        background-image: linear-gradient(rgba(42,42,49,0.6), rgba(42,42,49,0.3)), url("https://res.cloudinary.com/chronologic12/image/upload/c_scale,w_2049/v1624981405/Volume/contact-large_orv4ov.jpg");
     }
 }

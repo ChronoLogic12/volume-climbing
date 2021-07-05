@@ -72,10 +72,20 @@ Each wireframe contains designs for desktop, tablet and mobile devices.
 ### Colour Scheme
  
 The colour scheme I chose for this site is simple but bold. The main, three colour scheme (pictured left to right below) consists of an off black and white colours and a vibrant blue to act as an action colour. The final two colours are pale shades, colour picked from the hero image used on the home page. These colours are used in a linear gradient for the background of the informational pages. This palette gives high contrast without being too aggressive and the limited colour palette helps create a uniform look across all pages. Background images were also dimmed using an opaque gradient of the same off black colour to maintain contrast between background and foreground elements.
- 
+
+All clickable links throughout the site have a satisfying and tactile colour transition effect when hovered. This effect makes links more responsive and engaging to the user, enhancing the overall UX. The change is either from off white to blue or off black to off white depending on the element's background colour. 
+
 <p align="center">
     <img src="assets/images/readme-images/colours.PNG">
 </p>
+
+### Fonts
+
+For this site I chose to use the font **Lato**. This font is easy to read and works well in a range of font sizes and weights. In order to further differentiate headers within my hierarchy I choose to display them in all caps and feel this gives a satisfying and captivating look. 
+
+### Styling
+
+Styling of elements is consistent across all sections and pages lending the overall design and branding a strong sense of cohesion. The coloured drop shadows on informational cards helps to draw the user's eye down and to the right when reading encouraging them to browse further.  
  
 ## Features 
  
@@ -216,11 +226,8 @@ The site was deployed through GitHub Pages using the following steps.
 ### Media
  
  * All images were sourced from [Pexels](https://www.pexels.com/) and can be found in [this collection](https://www.pexels.com/collections/volume-rmvjg5w/).
- 
  * [Cloudinary](https://cloudinary.com/console/c-087b7b36d5737750ed37ab5fb60479/getting-started) CDN was use to store and deliver images to the site in multiple resolutions and improve performance. 
- 
  * The brand logo was created by me, using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html?mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjw8vqGBhC_ARIsADMSd1ABTiJnO8LkQCgsmMmARI5EC_QqrkMEL3OGW7HCihtdXmiVUZtmQAAaAqYlEALw_wcB:G:s&s_kwcid=AL!3085!3!520876516720!e!!g!!adobe%20photoshop!1422700211!58647953511&gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1ABTiJnO8LkQCgsmMmARI5EC_QqrkMEL3OGW7HCihtdXmiVUZtmQAAaAqYlEALw_wcB) 
- 
  * All text displayed on this site was written by me.
  
 ### Help and info
@@ -230,3 +237,7 @@ The site was deployed through GitHub Pages using the following steps.
 * [w3schools](https://www.w3schools.com/) - general knowledge.
 * [MND Web Docs](https://developer.mozilla.org/en-US/) - general knowledge.
 * [Stack Overflow](https://stackoverflow.com/) - debugging. 
+
+### Bugs
+
+I had some trouble with elements not appearing horizontally centred. After doing some research online I found the position was being set based on the top left corner of the element rather than it's centre. To compensate for this I used "transform: translateX(-50%);" to move the element across by half its width.
