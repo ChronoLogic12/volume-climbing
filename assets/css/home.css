@@ -78,7 +78,6 @@ main h2 {
 
 .home-news div {
     padding-bottom: 7rem;
-    /* padding-bottom: 2rem; */
     position: relative;
     top: 4rem;
     margin: 0 auto;
@@ -109,7 +108,7 @@ main h2 {
         width: 80%;
     }
 
-    article > p {
+    article > p, h3 {
         margin: 0;
     }
 
@@ -137,7 +136,7 @@ main h2 {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 340px) {
     .home-main-logo {
         margin: 0;
         height: 15vh;
@@ -145,6 +144,7 @@ main h2 {
 
     .home-intro .card-body {
         line-height: 1.1rem;
+        padding: 0.5rem;
     }
 
     .home-intro .card-body .button {

@@ -10,7 +10,7 @@
 
 }
 
-.activities article  {
+.activities article, .activities div {
     margin-top: 5rem;
     height: 40vh;
 }

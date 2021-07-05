@@ -132,9 +132,15 @@ body {
     margin: auto;
 }
 
-p[role="heading"] {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
+h5 {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.hidden {
+    position: absolute;
+    top: -5000px;
+    left: -5000px;
 }
 
 /* -------------------------------Button hover effects */

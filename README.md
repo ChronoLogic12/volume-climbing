@@ -99,6 +99,12 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
 <p align="center">
     <img src="assets/images/readme-images/footer/footer-desktop.PNG">
 </p>
+
+ * Error 404 page
+    * If the user requests a page that does not excist the will instead come to the 404.html page. Here, they will be prompted to return to the sites home page and able to do so without using browser controlls.  
+<p align="center">
+    <img src="assets/images/readme-images/404/404-page-not-found.PNG" width="600px">
+</p>
  
 #### Home page
  
@@ -164,7 +170,7 @@ The colour scheme I chose for this site is simple but bold. The main, three colo
  
  * Social media integration 
     * Generate news cards for the home page from facebook or twitter posts.
-    * generate images for gallery the page from instagram. 
+    * Generate images for gallery the page from instagram. 
  * Database integration
     * Save user details for future bookings. 
  
@@ -192,8 +198,9 @@ The site was deployed through GitHub pages using the following steps.
 * [Bootstrap](https://getbootstrap.com/) was used to create the colapsing navigation bar and responsive grid layouts 
 * [Bootstrap Icons](https://icons.getbootstrap.com/) for social media link icons
 * [Fancybox](https://fancyapps.com/docs/ui/fancybox/) was used to create interactive images and the image gallery 
-* [Google maps](https://www.google.com/maps/) The code for the map element of the contact page was created bu google maps.
+* [Google maps](https://www.google.com/maps/) The code for the map element of the contact page was created by google maps.
 * [Google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) generated the css for using fonts locally 
+* [Github docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) This guid was used to create teh error 404 page.
 
 
 ### Media

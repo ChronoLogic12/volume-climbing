@@ -19,7 +19,7 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg background-dark-grey container-fluid">
             <a href="index.html"><img src="assets/images/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
-            <article class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
+            <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
                 <ul class="nav-page-links uppercase navbar-nav" >
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-link-divider"></li>
@@ -31,7 +31,7 @@
                     <li class="nav-link-divider"></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-            </article>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list nav-menu-icon"></i>
             </button>
@@ -41,6 +41,7 @@
     <!-- Image gallery -->
     <main class="gallery">
         <section class="images">
+            <h2 class="hidden">Gallery</h2>
             <a data-fancybox="gallery" href="https://res.cloudinary.com/chronologic12/image/upload/q_auto/v1625064207/Volume/gallery/pexels-allan-mas-5383546-large_yfuiri.jpg" aria-label="Crop unrecognizable male instructor talking to cheerful fit ethnic female alpinist near climbing wall before training">
                 <img src="https://res.cloudinary.com/chronologic12/image/upload/q_auto/v1625064233/Volume/gallery/pexels-allan-mas-5383546-small_qmcesy.jpg" alt="Crop unrecognizable male instructor talking to cheerful fit ethnic female alpinist near climbing wall before training">
             </a>
@@ -94,8 +95,9 @@
     <!-- Footer -->
     <footer>
         <section class="container-fluid footer background-dark-grey row">
-            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
-                <p role="heading">Opening Times</p>
+            <h2 class="hidden">footer</h2>
+            <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
+                <h5>Opening Times</h5>
                 <table>
                     <tr>
                         <td>Monday</td>
@@ -126,17 +128,17 @@
                         <td>9:00-19:00</td>
                     </tr>
                 </table>
-            </article>
-            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
-                <p role="heading" class="uppercase">Volume Climbing</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <h5 class="uppercase">Volume Climbing</h5>
                     123 Example Street,<br>
                     Birmingham,<br>
                     B1 2XY
                     <br><br>
                     Phone: 01234 567 890<br>
                     Email: example@example.com
-            </article>
-            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
                 <ul class="uppercase">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="activities.html">Activities</a></li>
@@ -145,14 +147,14 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="booking.html">Booking</a></li>
                 </ul>
-            </article>
-            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
                 <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
                 <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
                 <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
-            </article>
+            </div>
         </section>
-    </footer>  
+    </footer>   
     <!-- Fancybox javascript script - https://fancyapps.com/docs/ui/quick-start -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
     <!-- Bootstrap javascript script - https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->

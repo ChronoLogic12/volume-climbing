@@ -18,7 +18,7 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg background-dark-grey container-fluid">
             <a href="index.html"><img src="assets/images/volume-logo-no-text.svg" alt="Logo that looks like the letter V made from a climbing volume" class="navbar-logo"></a>
-            <article class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
+            <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarContent">
                 <ul class="nav-page-links uppercase navbar-nav" >
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-link-divider"></li>
@@ -30,7 +30,7 @@
                     <li class="nav-link-divider"></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-            </article>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list nav-menu-icon"></i>
             </button>
@@ -39,9 +39,9 @@
     </header>
     <!-- Pricing information tables -->
     <main class="prices row">
-        <section class="col-sm-12 col-xxl-8">
+        <div role="presentation" class="col-sm-12 col-xxl-8">
             <article class="card-body card-shadow card-dark-background">
-                <p role="heading" class="uppercase">Prices</p>
+                <h3 class="uppercase">Prices</h3>
                 <table class="prices-main">
                     <tr>
                         <th></th>
@@ -77,7 +77,7 @@
                 </p>
             </article>
             <article class="card-body card-shadow card-dark-background">
-                <p role="heading" class="uppercase">Registration</p>
+                <h3 class="uppercase">Registration</h3>
                 <table>
                     <tr>
                         <th></th>
@@ -91,10 +91,10 @@
                     </tr>
                 </table>
             </article>
-        </section>
-        <section class="col-sm-12 col-xxl-4">
+        </div>
+        <div role="presentation" class="col-sm-12 col-xxl-4">
             <article class="card-body card-shadow card-dark-background">
-                <p role="heading" class="uppercase">Equipment Hire</p>
+                <h3 class="uppercase">Equipment Hire</h3>
                 <table class="prices-equipment">
                     <tr>
                         <td>Shoes</td>
@@ -112,7 +112,7 @@
                 <p>For a full range of items available for purchase or hire please enquire with reception.</p>
             </article>
             <article class="card-body card-shadow card-dark-background">
-                <p role="heading" class="uppercase">Membership</p>
+                <h3 class="uppercase">Membership</h3>
                 <table>
                     <tr>
                         <th></th>
@@ -132,13 +132,14 @@
                 </table>
                 <p>Membership grants unlimited access to climbing sessions and centre events at no aditional cost.</p>
             </article>
-        </section>
+        </div>
     </main>
     <!-- Footer -->
     <footer>
         <section class="container-fluid footer background-dark-grey row">
-            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
-                <p role="heading">Opening Times</p>
+            <h2 class="hidden">footer</h2>
+            <div class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing uppercase">
+                <h5>Opening Times</h5>
                 <table>
                     <tr>
                         <td>Monday</td>
@@ -169,17 +170,17 @@
                         <td>9:00-19:00</td>
                     </tr>
                 </table>
-            </article>
-            <article class="col-lg-3 col-md-6 col-sm-12  footer-column-spacing">
-                <p role="heading" class="uppercase">Volume Climbing</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+                <h5 class="uppercase">Volume Climbing</h5>
                     123 Example Street,<br>
                     Birmingham,<br>
                     B1 2XY
                     <br><br>
                     Phone: 01234 567 890<br>
                     Email: example@example.com
-            </article>
-            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
                 <ul class="uppercase">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="activities.html">Activities</a></li>
@@ -188,14 +189,14 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="booking.html">Booking</a></li>
                 </ul>
-            </article>
-            <article class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-column-spacing">
                 <span><a href="https://www.facebook.com/" target="_blank" aria-label="facebook" rel="noopener"><i class="bi bi-facebook social-icons"></i></a></span>
                 <span><a href="https://www.instagram.com/" target="_blank" aria-label="instagrm" rel="noopener"><i class="bi bi-instagram social-icons"></i></a></span>
                 <span><a href="https://www.twitter.com/" target="_blank" aria-label="twitter" rel="noopener"><i class="bi bi-twitter social-icons"></i></a></span>
-            </article>
+            </div>
         </section>
-    </footer>  
+    </footer>   
     <!-- Bootstrap javascript script - https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body>
 </html>

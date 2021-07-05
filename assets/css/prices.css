@@ -64,7 +64,7 @@
     .prices p {
         padding-top: 1rem;
     }
-    .prices p[role="heading"] {
+    .prices h3 {
         font-size: 1.3rem;
     }
 } 
